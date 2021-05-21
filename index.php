@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="text/css" href=css/style.css>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -23,7 +23,7 @@
   <head>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="index.html">Mata <b>Kuliah</b></a>
+        <a class="navbar-brand" href="index.php">Mata <b>Kuliah</b></a>
         </button>
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -141,6 +141,7 @@
           ?></span></p>
       <hr>
       <div class="row">
+
         <?php foreach ($data as $dat) : ?>
           <div class="col-lg-4">
             <div class="card">
@@ -164,6 +165,7 @@
                     </div>
                   </div>
                 </div>
+                <hr>
 
               </div>
               <ul class="list-group list-group-flush">
@@ -188,101 +190,22 @@
 
             </div>
           </div>
+
         <?php endforeach; ?>
       </div>
     </div>
   </div>
-
-
-
 </body>
+<style>
+
+</style>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<style>
-  body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #515155;
-  }
 
-  .my-auto p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    font-size: 2rem;
-    color: white;
-  }
-
-  .bg-heroes {
-    background: url(asset/tst4.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
-
-  .warna-bg {
-    background: linear-gradient(to right, rgb(0, 110, 255), rgba(2, 100, 229, 0.658));
-    height: 437px;
-  }
-
-  .has-search .form-control {
-    padding-left: 2.375rem;
-  }
-
-  .has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-    margin-top: 5px
-  }
-
-  .form-control {
-    background-color: white;
-    border: 0;
-  }
-
-  .layout {
-    margin-top: -60px;
-  }
-
-  .header-data {
-    padding-right: 15px;
-    justify-content: space-between;
-    font-weight: 500;
-    letter-spacing: 2%;
-  }
-
-  .item-data {
-    padding-right: 15px;
-    justify-content: space-between;
-    font-weight: 400;
-    letter-spacing: 2%;
-  }
-
-  .data {
-    line-height: 30px;
-    padding-bottom: 10px;
-  }
-
-  .card {
-    margin-bottom: 40px;
-    border-radius: 10px;
-  }
-
-  .card-text {
-    letter-spacing: 2%;
-    line-height: 30px;
-  }
-</style>
 </body>
 
 </html>

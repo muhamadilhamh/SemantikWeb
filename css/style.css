@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('/asset/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('/asset/Poppins-Bold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #515155;
+}
+
+.my-auto p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.bg-heroes {
+    background: url(../asset/tst4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.warna-bg {
+    background: linear-gradient(to right, rgb(0, 110, 255), rgba(2, 100, 229, 0.658));
+    height: 437px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    margin-top: 5px
+}
+
+.form-control {
+    background-color: white;
+    border: 0;
+}
+
+.layout {
+    margin-top: -60px;
+}
+
+.header-data {
+    padding-right: 15px;
+    justify-content: space-between;
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+
+.item-data {
+    padding-right: 15px;
+    justify-content: space-between;
+    font-weight: 400;
+    letter-spacing: 2%;
+}
+
+.data {
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.card {
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.card-text {
+    letter-spacing: 2%;
+    line-height: 30px;
+}
