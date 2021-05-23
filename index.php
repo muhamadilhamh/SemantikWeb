@@ -37,7 +37,7 @@
   if (isset($_POST['search-matakuliah'])) {
     $test = $_POST['search-matakuliah'];
     $data = sparql_get(
-      "http://localhost:3030/matakuliah",
+      " http://2112292ae223.ngrok.io/matakuliah",
       "
       PREFIX p: <http://matakuliahTI.com>
       PREFIX d: <http://matakuliahTI.com/ns/data#>
@@ -58,7 +58,7 @@
     );
   } else {
     $data = sparql_get(
-      "http://localhost:3030/matakuliah",
+      " http://2112292ae223.ngrok.io/matakuliah",
       "
       PREFIX p: <http://matakuliahTI.com>
       PREFIX d: <http://matakuliahTI.com/ns/data#>
