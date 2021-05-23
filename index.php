@@ -132,12 +132,13 @@
           if ($test != NULL) {
             echo $test;
           } else {
-            echo "Search Keyword";
+            echo "Kata yang dicari";
           }
           ?></span></p>
       <hr>
       <div class="row">
 
+        <?php $i = 0; ?>
         <?php foreach ($data as $dat) : ?>
           <div class="col-lg-4">
             <div class="card">
@@ -149,12 +150,11 @@
                 </div>
 
                 <div>
-                  <p>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#drop" aria-expanded="false" aria-controls="drop">
-                      Tentang Mata Kuliah
-                    </button>
-                  </p>
-                  <div class="collapse" id="drop">
+                  <a class="btn btn-primary" data-toggle="collapse" href="#test" role="button" aria-expanded="false" aria-controls="test">
+                    Detail Matakuliah
+                  </a>
+
+                  <div class="collapse" id="test">
                     <div class="card card-body">
                       <p class="card-text">
                         <?= $dat['deskripsi'] ?>
