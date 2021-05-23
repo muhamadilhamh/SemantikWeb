@@ -22,6 +22,16 @@ body {
     color: white;
 }
 
+.col-auto p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+
+
 .bg-heroes {
     background: url(../asset/tst4.svg);
     background-repeat: no-repeat;

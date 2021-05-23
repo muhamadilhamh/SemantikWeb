@@ -14,26 +14,22 @@
 
 
 
-  <title>Hello, world!</title>
+  <title>Teknik Informatika</title>
+  <!-- Navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="index.php">Mata <b>Kuliah</b></a>
+      </button>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Teknik Informatika</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </head>
 
 <body>
-  <!-- Navbar -->
-
-  <head>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="index.php">Mata <b>Kuliah</b></a>
-        </button>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Teknik Informatika</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </head>
-
   <!--PHP-->
   <?php
   require_once("sparqllib.php");
@@ -46,16 +42,16 @@
       PREFIX p: <http://matakuliahTI.com>
       PREFIX d: <http://matakuliahTI.com/ns/data#>
       
-      SELECT ?Matkul ?jenisMatkul ?deskripsi ?dosenPengajar ?jumlahSks ?semester
+      SELECT ?id ?Matkul ?jenisMatkul ?deskripsi ?dosenPengajar ?jumlahSks ?semester
       WHERE
       { 
-          ?s  d:namaMatkul ?Matkul ;
+          ?id d:namaMatkul ?Matkul ;
               d:jenisMatkul ?jenisMatkul;
               d:deskripsi ?deskripsi;
               d:dosenPengajar ?dosenPengajar;
               d:jumlahSks ?jumlahSks;
               d:semester ?semester;
-              FILTER regex(?Matkul, '$test')
+              FILTER regex(?Matkul,  '$test')
       
       }
             "
@@ -67,10 +63,10 @@
       PREFIX p: <http://matakuliahTI.com>
       PREFIX d: <http://matakuliahTI.com/ns/data#>
       
-      SELECT ?Matkul ?jenisMatkul ?deskripsi ?dosenPengajar ?jumlahSks ?semester
+      SELECT ?id ?Matkul ?jenisMatkul ?deskripsi ?dosenPengajar ?jumlahSks ?semester
       WHERE
       { 
-          ?s  d:namaMatkul ?Matkul ;
+          ?id d:namaMatkul ?Matkul ;
               d:jenisMatkul ?jenisMatkul;
               d:deskripsi ?deskripsi;
               d:dosenPengajar ?dosenPengajar;
@@ -88,7 +84,7 @@
 
   // melihat data sementara
   //var_dump($data);
-  // $search = $_POST['search-aniln'];
+  // $search = $_POST['search-matakuliah'];
   //         var_dump($search);
   ?>
 
@@ -154,13 +150,16 @@
 
                 <div>
                   <p>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#drop" aria-expanded="false" aria-controls="drop">
                       Tentang Mata Kuliah
                     </button>
                   </p>
-                  <div class="collapse" id="collapseExample">
+                  <div class="collapse" id="drop">
                     <div class="card card-body">
-                      <p class="card-text"><?= $dat['deskripsi'] ?>
+                      <p class="card-text">
+                        <?= $dat['deskripsi'] ?>
+                        <br>
+                        <!--<?= $dat['id'] ?>-->
                       </p>
                     </div>
                   </div>
@@ -196,6 +195,16 @@
     </div>
   </div>
 </body>
+<footer class="py-2 mt-auto" style="background: linear-gradient(to right, rgb(0, 110, 255), rgba(2, 100, 229, 0.658))">
+  <div class="container">
+    <div class="row align-items-center justify-content-center flex-column flex-sm-row">
+      <div class="col-auto">
+        <p class="text-white">Copyright &copy; MataKuliah 2021</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
 <style>
 
 </style>
@@ -204,7 +213,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
