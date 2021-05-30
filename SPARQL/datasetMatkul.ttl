@@ -40,21 +40,21 @@ p:P05        d:namaMatkul	        "Kalkulus I" ;
 
 p:P06        d:namaMatkul	        "Logika Informatika" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Drs. Ino Suryana, M.Kom" ;
              d:deskripsi            "Mata kuliah ini membahas dasar-dasar logic programming dan aplikasinya dengan menggunakan Prolog. Topik-topik yang dibahas meliputi: Prolog programming, Horn clauses, resolution theorem proving, computing with predicate logic, constraint logic pro-gramming.";
              d:jumlahSks            3;
              d:semester             1.
 
 p:P07        d:namaMatkul	        "Algoritma & Pemrograman" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Mira Suryani, S.Pd., M.Kom." ;
              d:deskripsi            "Mata kuliah ini membahas : pengenalan algoritma. bahasa pemrograman, struktur dan ciri-ciri program spesifikasi formal dari pada sintaks dan semantiks. Pemrosesan daftar/list, manipu-lasi string, deskripsi data, type-type data, opearsi, pernyataan type dan program terstruktur dengan penggunaan bahasa pemrograman";
              d:jumlahSks            3;
              d:semester             1.
 
 p:P08        d:namaMatkul	        "Pengantar Teknologi Komputer & Informatika" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Dr. Asep Sholahuddin, MT" ;
              d:deskripsi            "Mata kuliah ini memperkenalkan teknologi informasi sebagai bagian dari upaya memanfaatkan informasi yang melandasi pengembangan kreativitas secara etis. Materi bahasan: Pengenalan terhadap sistem dan organisasi computer, perangkat keras dan lunak, jaringan komunikasi (termasuk internet), implikasi penggunaan teknologi informasi dalam berbagai aspek kehidupan manusia, kemampuan berpikir komputasional melalui dasar pemrograman prosedural dalam satu bahasa pemrograman yang dipilih.";
              d:jumlahSks            3;
              d:semester             2.
@@ -96,21 +96,21 @@ p:P13        d:namaMatkul	        "Statistika" ;
 
 p:P14        d:namaMatkul	        "Struktur Data" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Mira Suryani, S.Pd., M.Kom." ;
              d:deskripsi            "Tipe Data dan Abstract Data Type (ADT), Pemrograman Terstruktur (Fungsi / Prosedur). Algoritma dan bahasa C++,  Array, Record, Array of Record, Algoritma Sorting dan Searching dengan Array, Pengertian Pointer, Deklarasi Pointer to Integer dan Alokasi memori, Operasi Pada Pointer, Pointer to Record, Pengertian List berkait, Operasi Traversal List, Menambah di depan, dan belakang, Menghapus di depan dan  belakang.. Searching, Menambah di tengah, Menghapus di tengah, Operasi Traversal List, Menambah di depan, belakang dan tengah, Menghapus di depan, belakang dan tengah, Variasi List Berkepala, Variasi List Circular, Pengertian Tumpukan, Penyajian tumpukan dengan Array dan List, Operasi Push dan Pop, Pemakaian Tumpukan, Pengertian Antrian, Penyajian Antrian dengan Array dan List, Antrian berprioritas, Pengertian Multi List, Pengelolaan pegawai dengan multi List, Konsep Relasi, Istilah-istilah dalam pohon, Pohon Biner, Penyajian Pohon, Menambah data, Kunjungan InOrder, Kunjuungan PreOrder, Kunjungan PostOrder, Pohon Biner berbenang, Pohon dengan Array, Pengertian Sorting, Penyisipan langsung, Metoda Seleksi, merge Sort, Quick Sort, Pencaian berurutan, Pencarian biner, Pohon telusur.";
              d:jumlahSks            3;
              d:semester             2.
 
 p:P15        d:namaMatkul	        "Arsitektur & Organisasi Komputer" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Drs. Ino Suryana, M.Kom" ;
              d:deskripsi            "Kuliah ini berisi pembahasan rinci komponen utama sistem komputer: prosesor, memory dan masukan/ keluaran. Sebagai patokan diadakan studi perbandingan sistem yang telah mapan. Penekanan ditujukan pada analisa dan teknik peningkatan kinerja (performance) dari sistem komputer. Topik-topik yang akan dibahas meliputi pengantar rancangan komputer; perspektif historis; Komponen dari sistem komputer, organisasi dasar mesin komputer; Kinerja dan biaya, pilihan dalam rancangan; Realisasi organisasi sistem komputer: RISC; Implementasi dan analisa perangkat instruksi pada contoh-contoh organisasi sistem komputer yang diberikan; Rancangan prosesor: data path dan unit pengendali prosesor, micro program-ming dan hardwired control; Rancangan memory: Cache memory; Pipelining; Masukan / Keluaran (I/O). Superscalar architecture and their ad-vantages; branch prediction and its utility; the costs and benefits of prefetching; multithreading; the rel-evance of scalability to performance; Architecture for networks and distrib-uted systems; Impact of architectural issues on distributed algorithms; par-allel architectures. ";
              d:jumlahSks            3;
              d:semester             2.
 
 p:P16        d:namaMatkul	        "Sistem Database I" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Dr. Juli Rejito, M.Kom" ;
              d:deskripsi            "Kuliah ini membahas konsep dasar dari manajemen basis data yang menyangkut aspek pemodelan dan perancangan, bahasa dan fasilitas, implementasi dan penggunaan suatu basis data. Topik-topik yang akan dibahas: Arsitektur dan konsep dari sistem manajemen basis data (SMBD); Penyimpanan dan organisasi berkas; Indexing; Data modeling mengguna-kan model entity-relationship; Data modeling menggunakan model relasional; Bahasa query formal; Aljabar relasional; Kalkulus relasional; SQL dan QBE; Functional dependencies, dan normalisasi untuk basis data relasional; Algoritma dan proses desain basis data relasional; Pemrosesan dan optimisasi query; Transaksi, concurrency control; recov-ery, security; Basis data Client-Server";
              d:jumlahSks            3;
              d:semester             2.
@@ -124,42 +124,42 @@ p:P17        d:namaMatkul	        "Aljabar Linier" ;
 
 p:P18        d:namaMatkul	        "Metode Numerik" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Dr. Afrida Helen, MT." ;
              d:deskripsi            "Persoalan numerik dan teori kesalahan: Interpolasi Lagrange, Newton, kesalahan interplasi, titik interpolasi berjarak sama, splines dan aproksimasi. Penyelesaian sistem linier dengan dekomposisi LU, 25 perhitungan jumlah operasi. Penyelesai-an persmaan non linier: Bisection, new-ton, Regula falsi, Titik tetep, perhitungan kesalahan. Pengintegralan dan pendi-ferensialan numerik.";                          
              d:jumlahSks            3;
              d:semester             3.
 
 p:P19        d:namaMatkul	        "Matematika Diskrit" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Akik Hidayat, DRs., M.Kom" ;
              d:deskripsi            "Topik-topik yang akan dibahas meliputi: Logika proposisi, Logika predikat, Teori himpunan, Fungsi, Barisan, Deret, Pertumbuhan fungsi, Algoritma, Kompleksitas algoritma, Teori bilangan, Metode pembuktian, Induksi Matematik, Prinsip kandang burung, Permutasi, Kombinasi., Relasi beserta sifat-sifat dan aplikasinya, Penutup relasi, Relasi ekivalen, Terurut parsial, Terurut total, Relasi rekurensi, fungsi Pembangkit, Graf, Isomorfisma graf, Keterhubungan graf, Komponen, Lintasan, Sirkuit, Lintasan dan Sirkuit Euler, Lintas dan Sirkuit Hamilton, Lintasan Terpendek, Graf Planar, Pewarnaan graf, Pohon, Hutan, Pohon perentang, Pohon perentang minimum, cut set";
              d:jumlahSks            3;
              d:semester             3.
 
 p:P20        d:namaMatkul	        "Sistem Operasi" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Rudi Rosadi, S.Si., M.Kom" ;
              d:deskripsi            "Dalam kuliah ini akan dibahas organisasi, struktur dan konsep-konsep dari sistem pengoperasian komputer. Topik-topik yang akan dibahas meliputi Pendahuluan: sejarah, konsep dasar, dan struktur; Proses: model, inter-process communi-cation, schedulling; Memory Manage-ment: swapping, virtual memory, page replacement, paging, working set model, segmentation; File System: file and directory, implementation, security, protection; Input/Output; Dead-lock; Distributed Systems";
              d:jumlahSks            3;
              d:semester             3.
 
 p:P21        d:namaMatkul	        "Pemrograman Web" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Rudi Rosadi, S.Si., M.Kom" ;
              d:deskripsi            "Kuliah ini membahasa tentang pengenalan konsep internet dan pengertian multimedia, HTML, Page generator tool, client-side-script (VBScript), JavaScript), server-side-script (Perl, PHP, ASP, CFML), Pengaksesan basisdata pada web, applet dalam bahasa java";
              d:jumlahSks            3;
              d:semester             3.
 
 p:P22        d:namaMatkul	        "Pemrograman Berorientasi Objek" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Erick Paulus, M.Kom." ;
              d:deskripsi            "Genealogy of object oriented languages: structured programming, procedural programming. Abstract data types, encapsulation, Typed and untyped languages, Coupling and cohesion, Classes and objects. Class members: Data members (fields) and member functions (methods). Class member visibility (private, public, protected). Class variables and instance variables, class methods and instance methods. Service methods and support methods. Class hierarchies. Single and multiple inheritance, Inter-class relationships, Constructors and destructors. Object initialization, memory management. Garbage collection. Methods and messages. Method signatures. Method and operator overloading. Method overriding. Abstract classes. Dynamic (late) binding. Polymorphism, Software reuse. Subclasses (derived classes), Super classes (base classes). Invocation of superclass, methods and constructors. Objects vs. variables. Classes vs. types. Delegation Collection classes. Class libraries, Unified Modelling Language (UML). Use case diagrams: actors, system boundary, <<uses>> and <<extends>>. Scenarios. Class diagrams: associations, aggregation,dependency, and inheritance. Object interaction diagrams, object state transition diagrams. Object constraint language(OCL): invariants, preconditions, post conditions. Design patterns. Pattern documentation: motivation, prerequisites, structure, participants and consequences. Examples of patterns: Adapter, Decorator, Iterator, Observer, Singleton, Iterative and incremental development styles Design of class hierarchies, refactoring Implemen-tation of designs in an object oriented programming language, Testing object oriented code. Class testing, constructing class tests from OCL or state transition diagrams, test driver construction. Testing interactions and class hierarchy";
              d:jumlahSks            3;
              d:semester             3.
 
 p:P23        d:namaMatkul	        "Sistem Database II" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Dr. Juli Rejito, M.Kom" ;
              d:deskripsi            "Pendahuluan active database,  store procedure trigger, temporal database, pemanfaatan query optimization, heuristic optimization, cost based optimization, database terdistribusi, storing dan query  database terdistribusi, concurrency control, recovery database terdistribusi, mirroring, replication, konfigurasi replication, mirroring vs replication database, keamanan database, user priveladge, manajemen user, backup, migrasi sharing database, konstruksi objek dalam ordbms, indentity objek, metoda penyimpanan dan akses, query processing, data warehouse, Online analytical processing (OLAP), OLAP query, database design untuk OLAP, pengenalan data mining, cloud database, virtual machine image, database sebagai sebuah layanan";
              d:jumlahSks            2;
              d:semester             3.
@@ -180,21 +180,21 @@ p:P25        d:namaMatkul	        "Operasional Riset" ;
 
 p:P26        d:namaMatkul	        "Artificial Intelligence" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Dr. Asep Sholahuddin, MT" ;
              d:deskripsi            "Penjelasan matakuliah kecerdasan buatan (KB), Jenis-jenis KB, Perkembangan KB, Kalkulus predikat, jaringan semantik, Frame, Script, Searching dengan Bread First Search (BFS), Searching dengan Depth First Search (DFS), Heuristic search, Konsep IF THEN pada sistem pakar, Struktur pohon, Teori Ketidak pastian, Software EXSYS, Teknik Pembuatan s/w, Sistem Pakar, Aplikasi software sistem pakar, Gambaran umum neural network, Neuron dan Fungsi aktivasi, Algoritma packpropagation, Software Matlab pada Neural Network, Solusi  NN dengan Matlab, Gambaran umum tentang fuzzy logic, Himpunan Fuzzy, Metode-metode pada Fuzzy, Software Matlab pada Fuzzy Logic, Solusi Fuzzy dengan Matlab, Struktur Umum  algoritma genetika, Komponen-komponen Utama pada algoritma genetika, Seleksi pada algoritma genetika, Rekombinasi, Mutasi dan Algoritma Genetika sederhana";
              d:jumlahSks            3;
              d:semester             4.
 
 p:P27        d:namaMatkul	        "Jaringan Komputer" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Aditya Pradana, S.T., M.Eng." ;
              d:deskripsi            "Pengenalan model referensi ISO-OSI untuk perancangan ketiga lapisan terbawah jaringan komputer: physical layer, data link layer, network layer. Topik- topik yang akan dibahas meliputi: Arsitektur jaringan dan protokol hirarkis; Referensi model OSI dan model pelayanan; Contoh realisasi jaringan komputer; Lapisan fisik: prinsip dasar komunikasi data dan media transmisi, transmisi ana-log dan dijital, data encoding, multi-plexing dan polling; Lapisan data link: konfigurasi dan manajemen link, deteksi dan koreksi kesalahan; Pengaturan flow data link: protokol stop/wait dan sliding window; Jaringan radio dan satelit; Lapisan Jaringan: algoritma routing, X.25, dan internetworking; Jaringan lokal: teknologi dan topologi jaringan, Ethernet dan bakuan IEEE 802.3, To-ken Ring dan bakuan IEEE 802.4.";
              d:jumlahSks            3;
              d:semester             4.
 
 p:P28        d:namaMatkul	        "Sistem Informasi" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Prof. Dr. Atje Setiawan A.,MS, M.Kom" ;
              d:deskripsi            "Tujuan mata kuliah ini adalah untuk mengetahui bagaimana mengelola divisi sistem informasi/teknologi informasi di sebuah organisasi. Topik mencakup: perencanaan sistem informasi, manajemen pengembangan sistem, manajemen pemeliharaan, manajemen implementasi, help desk, user support service, operasi data cen-tre, manajemen infrastruktur, manajemen inventori, kontrol dan evaluasi sistem informasi, akuisisi dan procurement sumber daya sistem informasi, manajemen personalia sistem informasi, end-user computing.";
              d:jumlahSks            3;
              d:semester             4.
@@ -208,42 +208,42 @@ p:P29        d:namaMatkul	        "Kecakapan Antar Personal" ;
 
 p:P30        d:namaMatkul	        "Analisis Algoritma" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Mira Suryani, S.Pd., M.Kom." ;
              d:deskripsi            "Kuliah ini membahas beberapa metode perancangan algoritma untuk menyelesaikan masalah-masalah seperti metode iterative, divide and conquer, dynamic programming, greedy, backtracking, branch and bound. Pembahasan setiap algoritma disertai dengan dua aspek yang terpenting yaitu correctness dan com-plexity. Topik-topik yang akan dibahas meliputi Mesin Turing; struktur data dasar: priority queue, heap, linked lists; Notasi big Oh, big theta, big omega, recursion, Master's Theorem; Algoritma-algoritma sorting: insertionSort, selectionSort, Bose-Nelson Sort, HeapSort, QuickSort, MergeSort, RadixSort, CountingSort, order statistik; Dynamic programming: matrix chain multiplication, LCS; Algoritma-algoritma Greedy: Knap-sack problem, TSP, Huffman codes; Algoritma-algoritma pada graphs: BFS, DFS, connectivity, MST, shortest path, topological sort, maximum flow; Operasi-operasi pada matriks; Com-putational geometry; NP-complete-ness, approximation algorithms.";
              d:jumlahSks            3;
              d:semester             4.
 
 p:P31        d:namaMatkul	        "Etika Profesi" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Dr. Setiawan Hadi, M.Sc.CS." ;
              d:deskripsi            "Pembahasan Manusia sebagai Makhluk Pribadi yang Multi Dimen-sional menurut Filsafat Manusia, meliputi Ciri-ciri dasar manusia (yang membedakannya dengan binatang), dan bagaimana memahami sikap dan prilaku manusia, Pembahasan berbagai Teori tentang Sikap dan Prilaku Manusia (Teori Plato, Teori Psiko-Analisis Sigmund Freud, Teori Perangai C.G Jung, Teori Motivasi Prof. Abraham Maslow), Teori Sosiologi dan Filsafat Wayang, Pembahasan Teori Eksistensi Manusia, Kepri-badian (Aktualisasi Diri), Manusia Sebagai Makhluk Berbahasa/ Berkomunikasi (Etika Komunikasi), Manusia Sebagai Makhluk Berbudaya (Etika Umum dan Sopan Santun), dan manusia Sebagai makhluk Bekerja (Etika Profesi Atau Etos Kerja), Pembahasan Manusia Sebagai Makhluk Sosial, Proses Sosialisasi Manusia, Keluarga Sebagai Media Proses Sosialisasi, Teori-teori Hubungan Sesama Manusia, Bentuk-bentuk hubungan timbale Balik Antara manusia, dan Bagaimana MenghindarkanKonflik Antar Manusia, Pembahasan Konsep (Citra) Manusia Ideal Sejak Zaman Yunani, Romawi, Zaman Pertengahan di Eropa, Zaman Humanisme, dan Konsep Manusia Indonesia Yang Sempurna (Seutuhnya) yaitu Manusia Pancasila, Manusia Indonesia Seutuhnya, Manusia Berakhlak Mulia, manusia Berbudi Luhur.";
              d:jumlahSks            2;
              d:semester             4.
 
 p:P32        d:namaMatkul	        "Telematika" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Deni Setiana, S.SI., M.Cs" ;
              d:deskripsi            "Konsep Dasar Ilmu dan Teknologi Informasi; Dasar Sistem Representasi Bilangan; Grafika Komputer dan Informasi Visual; Kompresi Data; Band-width dan Konsep Informasi; Transmisi Data dan Teknologi Penyimpanan Data; Konsep dan Jaringan Komputer; Dampak Teknologi Informasi dan Perkembangannya.";
              d:jumlahSks            3;
              d:semester             5.
 
 p:P33        d:namaMatkul	        "Enterpreneurship" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "R. Sudrajat, Drs., M.Si" ;
              d:deskripsi            "Kuliah ini bertujuan untuk memberikan bekal kepada mahasiswa mengenai pengaturan dan cara pemasaran produk, khususnya produk IT. Selain itu, kuliah ini juga diharapkan mampu memupuk jiwa kewirausahaan mahasiswa. Manajemen Pemasaran mencakup: konsep dasar pemasaran yang efisien dan efektif, dengan studi kasus pemasaran produk-produk IT. Kewirausahaan mencakup: untuk menumbuhkan minat wirausaha dengan memberikan pengetahuan dan ketrampilan dalam memulai usaha baru";
              d:jumlahSks            2;
              d:semester             5.
 
 p:P34        d:namaMatkul	        "Rekayasa Perangkat Lunak" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "R. Sudrajat, Drs., M.Si" ;
              d:deskripsi            "Pembahasan mengacu pada siklus pengembangan perangkat lunak yang terdiri atas tahapan perencanaan, analisa, perancangan, pembuatan program, pengujian dan pemeliharaan. Bentuk perkuliahan dipadukan dengan proyek semester yang sederhana (proyek yang lebih ekstensif akan diberikan pada mata kuliah Proyek perangkat Lunak). Setiap kelompok peserta diharuskan membangun sebuah perangkat lunak, yang telah didefinisikan pada awal semester. Materi yang akan diberikan meliputi Metodologi pengembangan perangkat lunak; Computer aided soft-ware engineering (CASE) tools; UML; Perencanaan proyek pengembangan perangkat lunak; Analisis permasalahan dan kebutuhan pemakai; Penyusunan spesifikasi perangkat lunak; Prinsip dasar perancangan perangkat lunak; Teknik perancangan berorientasikan pada proses, data, obyek; Permasalahan dalam penulisan program; Software quality assurance; Ukuran mutu perangkat lunak; Pengujian perangkat lunak; Pemeliharaan perangkat lunak.";
              d:jumlahSks            3;
              d:semester             5.
 
 p:P35        d:namaMatkul	        "Metodologi Penelitian" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Prof. Dr. Atje Setiawan A.,MS, M.Kom" ;
              d:deskripsi            "Kuliah ini bertujuan untuk mem-perkenalkan konsep-konsep dalam melakukan penelitian, terutama pada penelitian sosial, yang mencakup pembuatan rancangan penelitian, perumusan masalah, jenis data, metode pengukuran, teknik penggalian infor-masi/elisitasi, cara melakukan sam-pling, teknik uji coba, teknik pembuatan kuesioner, probabilitas, teknik-teknik penelitian kualitatif & kuantitatif yang mencakup survey, polling, focus group discussion, metode delphi, wawancara mendalam, juga aneka teknik pengolahan data, etika dalam penelitian, dsb. Penekanan akan diberikan pada pentingnya teori dan metodologi dalam penelitian sistem informasi, misalnya dalam bidang interaksi manusia komputer, e-com-merce, ekonomi informasi, manajemen/ perencanaan sistem informasi, audit sistem informasi, proses requirement dalam software engineering, dsb.";
              d:jumlahSks            2;
              d:semester             5.
@@ -278,7 +278,7 @@ p:P39        d:namaMatkul	        "Kriptografi" ;
 
 p:P40        d:namaMatkul	        "Grafika Komputer" ;
              d:jenisMatkul       	"Peminatan, Sistem Cerdas dan Sistem Grafika (SCSG)" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Dr. Setiawan Hadi, M.Sc.CS." ;
              d:deskripsi            "Topik-topik yang akan dibahas: Pengantar grafika komputer; Primitif keluaran: algoritma dan metoda pembuatan primitif; Transformasi; Windowing dan Clipping; Kurva: Bezier, B-spline; Realism: Hidden line elimination, hidden surface removal, model Illuminasi, Gouroud Shading, Phong Shading, dithering, fractal ob-jects, model-model warna; Geometric Modeling; Ray Tracing; Pengantar Antarmuka Grafika.";
              d:jumlahSks            3;
              d:semester             5.
@@ -306,28 +306,28 @@ p:P43        d:namaMatkul	        "Sistem Terdistribusi" ;
 
 p:P44        d:namaMatkul	        "Interaksi Manusia & Komputer" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Mira Suryani, S.Pd., M.Kom." ;
              d:deskripsi            "Kuliah membahas interaksi manusia dengan komputer dari berbagai sudut pandang antara lain: Interaksi manusia dengan komputer-historis, intelektual dan sosial. Membangun system interaksi, termasuk disain, metode evaluasi, dan alat-alat pengembangan. Pengalaman interaksi, melalui berbagai alat sensor termasuk pandangan, sentuhan, gerak tubuh, pembicaraan, dan bahasa, Teori-teori pemrosesan informasi dari manusia dengan computer dan masalah adaptasi";
              d:jumlahSks            3;
              d:semester             6.
 
 p:P45        d:namaMatkul	        "Teori Bahasa & Automata" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Rudi Rosadi, S.Si., M.Kom" ;
              d:deskripsi            "Dalam kuliah ini akan dibicarakan keempat tipe grammar dan mesin-mesin untuk mengenal masing-masing grammar. Kuliah ini juga mencakup masalah-masalah komplek-sitas komputasi, termasuk persoalan NP dan P. Topik-topik yang akan dibahas meliputi Automata berhingga (NFA dan DFA); Ekspresi regular; Himpunan regular dan sifat-sifatnya; Minimisasi automata berhingga; De-cision problems untuk bahasa regular; Context-free grammars dan bentuk-bentuk normal; Pushdown automata; Bahasa context-free dan sifat-sifatnya; Decision problems untuk bahasa con-text free; Mesin Turing standar dan modifikasi-nya; Bahasa context-sensi-tive; Undecidability";
              d:jumlahSks            3;
              d:semester             6.
 
 p:P46        d:namaMatkul	        "Proyek Perangkat Lunak I" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Akmal, S.Si., MT" ;
              d:deskripsi            "Proyek Perangkat Lunak I";
              d:jumlahSks            2;
              d:semester             6.
 
 p:P47        d:namaMatkul	        "Data Warehouse" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Dr. Intan Nurma Yulita, M.T." ;
              d:deskripsi            "Mata kuliah ini mengajarkan tentang teori dan implementasi dari data ware-house yang mencakup arsitektur data warehouse, data marts, view material-ization, online analytical processing (OLAP) dan extraction-transforma-tion-loading (ETL). Dalam kuliah ini juga membahas tentang data ware-house ETL toolkit meliputi teknik praktis untuk extracting, cleaning, transforming dan delivering data, data warehouse environment (building the data warehouse).";
              d:jumlahSks            2;
              d:semester             6.
@@ -355,7 +355,7 @@ p:P50        d:namaMatkul	        "Sistem Informasi Multimedia" ;
 
 p:P51        d:namaMatkul	        "Semantik Web" ;
              d:jenisMatkul       	"Peminatan, Sistem Informasi dan Sistem Multimedia (SISM)" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Aditya Pradana, S.T., M.Eng." ;
              d:deskripsi            "Pengenalan semantic web, perbandingan web vs semantic web, Web 1.0, web 2.0, web 3.0, ilustrasi dan contoh sederhana, RDF (Resource Description Framework), Simple triple semantic, graphic representation of triples, N-Triples, N3, RDF/XML, RDF Query Engines, SPARQL, Ontology OWL(Web Ontology Language), Counting, set, restriction in OWL, Tool, Engine, API for Programming:  Protege Ontology Editor, Protege OWL, OWL Jena API, semantic org API, Description Logic : Web rule & Inference, DL reasoning, Social Networking and Semantic: Modeling social network data, ontological representation of social individuals, Study case & Application Demo : Problem example and application, student cases & presentations";
              d:jumlahSks            3;
              d:semester             6.
@@ -390,7 +390,7 @@ p:P56        d:namaMatkul	        "Mobile Computing" ;
 
 p:P57        d:namaMatkul	        "Data Mining" ;
              d:jenisMatkul       	"Wajib" ;
-             d:dosenPengajar        "-" ;
+             d:dosenPengajar        "Dr. Intan Nurma Yulita, M.T." ;
              d:deskripsi            "Topik pada data mining meliputi: data mining; demands, potential and ma-jor issues, teknik dalam data mining seperti klasifikasi, generalisasi, kesimpulan dan karakterisasi. Dalam kuliah ini juga dibahas tentang menemukan dan menganalisis pat-tern, trends and deviations, pemahaman data mining dalam sistem database lanjut maupun khusus, serta membahas tentang berbagai model-model data mining (decision trees, genetic algorithms, neural net, dll), data mining process (data preparation, defining a study, data cleaning, prediction, enabling data mining through data warehouse). Integrasi data mining tools dalam sys-tem database, distributed heteroge-neous database systems, aplikasi-aplikasi data mining dan isu-isu riset dalam data mining.";
              d:jumlahSks            3;
              d:semester             7.

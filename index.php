@@ -51,8 +51,7 @@
               d:dosenPengajar ?dosenPengajar;
               d:jumlahSks ?jumlahSks;
               d:semester ?semester;
-              FILTER ((regex(?jumlahSks, '$test') && regex(datatype(?jumlahSks) = xsd:integer) || (regex(?Matkul, '$test') || regex(?jenisMatkul,  '$test') 
-                      || regex(?deskripsi, '$test') || regex(?dosenPengajar, '$test')))
+              FILTER (regex(?Matkul, '$test') || regex(?jenisMatkul,  '$test') || regex(?deskripsi, '$test') || regex(?dosenPengajar, '$test'))
 
       
       }
