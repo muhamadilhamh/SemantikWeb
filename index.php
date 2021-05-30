@@ -37,7 +37,7 @@
   if (isset($_POST['search-matakuliah'])) {
     $test = $_POST['search-matakuliah'];
     $data = sparql_get(
-      " http://2112292ae223.ngrok.io/matakuliah",
+      "https://b0118b6cf869.ngrok.io/matakuliah",
       "
       PREFIX p: <http://matakuliahTI.com>
       PREFIX d: <http://matakuliahTI.com/ns/data#>
@@ -51,14 +51,16 @@
               d:dosenPengajar ?dosenPengajar;
               d:jumlahSks ?jumlahSks;
               d:semester ?semester;
-              FILTER regex(?Matkul,  '$test')
+              FILTER ((regex(?jumlahSks, '$test') && regex(datatype(?jumlahSks) = xsd:integer) || (regex(?Matkul, '$test') || regex(?jenisMatkul,  '$test') 
+                      || regex(?deskripsi, '$test') || regex(?dosenPengajar, '$test')))
+
       
       }
             "
     );
   } else {
     $data = sparql_get(
-      " http://2112292ae223.ngrok.io/matakuliah",
+      "https://b0118b6cf869.ngrok.io/matakuliah",
       "
       PREFIX p: <http://matakuliahTI.com>
       PREFIX d: <http://matakuliahTI.com/ns/data#>
