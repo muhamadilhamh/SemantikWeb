@@ -51,7 +51,7 @@
               d:dosenPengajar ?dosenPengajar;
               d:jumlahSks ?jumlahSks;
               d:semester ?semester;
-              FILTER (regex(?Matkul, '$test') || regex(?jenisMatkul,  '$test') || regex(?deskripsi, '$test') || regex(?dosenPengajar, '$test'))
+              FILTER (regex(?Matkul, '$test', 'i') || regex(?jenisMatkul,  '$test', 'i') || regex(?deskripsi, '$test', 'i') || regex(?dosenPengajar, '$test', 'i'))
 
       
       }
