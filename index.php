@@ -1,220 +1,224 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-  <title>Teknik Informatika</title>
-  <!-- Navbar -->
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand" href="index.php">Mata <b>Kuliah</b></a>
-      </button>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Teknik Informatika</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <title>Mata Kuliah</title>
 </head>
 
 <body>
-  <!--PHP-->
-  <?php
-  require_once("sparqllib.php");
-  $test = "";
-  if (isset($_POST['search-matakuliah'])) {
-    $test = $_POST['search-matakuliah'];
-    $data = sparql_get(
-      "https://b0118b6cf869.ngrok.io/matakuliah",
-      "
-      PREFIX p: <http://matakuliahTI.com>
-      PREFIX d: <http://matakuliahTI.com/ns/data#>
-      
-      SELECT ?id ?Matkul ?jenisMatkul ?deskripsi ?dosenPengajar ?jumlahSks ?semester
-      WHERE
-      { 
-          ?id d:namaMatkul ?Matkul ;
-              d:jenisMatkul ?jenisMatkul;
-              d:deskripsi ?deskripsi;
-              d:dosenPengajar ?dosenPengajar;
-              d:jumlahSks ?jumlahSks;
-              d:semester ?semester;
-              FILTER (regex(?Matkul, '$test') || regex(?jenisMatkul,  '$test') || regex(?deskripsi, '$test') || regex(?dosenPengajar, '$test'))
+  <div id="App">
+    <title>Teknik Informatika</title>
+    <!-- Navbar -->
+    <v-toolbar dense>
+      <v-container>
+        <v-toolbar-title>
+          <v-card-action>
+            <v-btn href="index.php" class="btn" text> Mata <b>Kuliah</b></v-btn>
+          </v-card-action>
+          <v-card-action>
+            <v-btn href="about.html" class="btn" text>About Teknik Informatika</v-btn>
+          </v-card-action>
 
-      
-      }
-            "
-    );
-  } else {
-    $data = sparql_get(
-      "https://b0118b6cf869.ngrok.io/matakuliah",
-      "
-      PREFIX p: <http://matakuliahTI.com>
-      PREFIX d: <http://matakuliahTI.com/ns/data#>
-      
-      SELECT ?id ?Matkul ?jenisMatkul ?deskripsi ?dosenPengajar ?jumlahSks ?semester
-      WHERE
-      { 
-          ?id d:namaMatkul ?Matkul ;
-              d:jenisMatkul ?jenisMatkul;
-              d:deskripsi ?deskripsi;
-              d:dosenPengajar ?dosenPengajar;
-              d:jumlahSks ?jumlahSks;
-              d:semester ?semester;
-      
-      }
-            "
-    );
-  }
+        </v-toolbar-title>
+      </v-container>
+    </v-toolbar>
 
-  if (!isset($data)) {
-    print "<p>Error: " . sparql_errno() . ": " . sparql_error() . "</p>";
-  }
-
-  // melihat data sementara
-  //var_dump($data);
-  // $search = $_POST['search-matakuliah'];
-  //         var_dump($search);
-  ?>
-
-  <!-- Jumbotron-->
-  <section class="jumbotron-bg">
-    <div class="jumbotron  warna-bg">
-      <div class=" row h-100  bg-heroes">
-        <div class="col-sm-12 my-auto">
-          <div class=" mx-auto">
-            <p class="title">Ada mata kuliah apa saja sih di Teknik Informatika</p>
-          </div>
-        </div>
+    <!-- Jumbotron-->
+    <section>
+      <div class="warna-bg">
+        <v-flex class="pa-10 pb-8 text-center">
+          <v-img class=" pict" src="./asset/tst4.svg" width="300"></v-img>
+        </v-flex>
+        <p class="title">Ada mata kuliah apa saja sih di Teknik Informatika</p>
       </div>
-    </div>
-  </section>
+    </section>
+    <!-- Form Search -->
+    <v-container>
+      <v-row>
+        <v-col cols="12">
+          <form @submit.prevent="submit">
 
-  <!-- Form Search -->
-  <div class="main">
-    <div class="container">
-      <div class="shadow mb-5 bg-white rounded layout">
-        <div class="form-group has-search">
-          <form action="" method="post" id="nameform">
-            <div class="input-group">
-              <span class="fa fa-search fa-1x form-control-feedback"></span>
-              <input type="text" name="search-matakuliah" class="form-control form-control-lg " placeholder="Cari Mata Kuliah">
-              <div class="input-group-append">
-                <button class="btn btn-secondary" type="submit"> Cari
-                </button>
-              </div>
-            </div>
+            <v-text-field elevation="7" solo rounded tile label="Cari Data" color="primary" v-model="input" placeholder="Caro Data" @keypress.enter="show">
+              <template v-slot:append>
+
+                <v-btn class="btn" color="#90CAF9" type="submit" elevation="2">
+                  <v-icon>mdi-magnify</v-icon>
+                  Search
+                </v-btn>
+              </template>
+            </v-text-field>
           </form>
-        </div>
-      </div>
-    </div>
-  </div>
+        </v-col>
 
+        <v-container>
+          <h2 v-model="input">Keyword yang dicari</h2>
+          <p> {{input}}</p>
+        </v-container>
 
+        <v-container>
+          <v-radio-group row @change="sortedItem = 'jenisMatkul'">
+            <v-radio label="Ascending" value="asc" @click="sortType = 'asc'"></v-radio>
+            <v-radio label="Descending" value="desc" @click="sortType = 'desc'"></v-radio>
+          </v-radio-group>
 
-  <!-- Opsi dua -->
-  <div class="konten">
-    <div class="container">
-      <h3>Hasil Pencarian Mata Kuliah</h3>
-      <p>Keyword : <span>
-          <?php
-          if ($test != NULL) {
-            echo $test;
-          } else {
-            echo "Kata yang dicari";
-          }
-          ?></span></p>
-      <hr>
-      <div class="row">
+        </v-container>
 
-        <?php $i = 0; ?>
-        <?php foreach ($data as $dat) : ?>
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <div class="card-title">
-                  <div class="header-data"> <b>Nama Mata Kuliah :</b></div>
-                  <div class="item-data"><?= $dat['Matkul'] ?></div>
-                  <hr>
-                </div>
+        <v-container>
+          <v-row>
+            <v-col v-for="(item,index) in filteredList" :key="index" cols="12" md="4">
+              <v-col>
+                <v-card outlined class="mx-auto rounded-lg">
+                  <v-card-title>
+                    Nama Mata Kuliah:
+                  </v-card-title>
+                  <v-card-subtitle>
+                    <p>{{item.Matkul}}</p>
+                  </v-card-subtitle>
+                  <hr />
 
-                <div>
-                  <a class="btn btn-primary" data-toggle="collapse" href="#test" role="button" aria-expanded="false" aria-controls="test">
-                    Detail Matakuliah
-                  </a>
+                  <v-card-title>
+                    Jenis Mata Pelajaran :
+                  </v-card-title>
+                  <v-card-subtitle>
+                    <p>{{item.jenisMatkul}}</p>
+                  </v-card-subtitle>
+                  <v-card-title>
+                    Dosen Pengajar :
+                  </v-card-title>
+                  <v-card-subtitle>
+                    <p>{{item.dosenPengajar}}</p>
+                  </v-card-subtitle>
+                  <v-card-title>
+                    Jumlah Sks:
+                  </v-card-title>
+                  <v-card-subtitle>
+                    <p>{{item.jumlahSks}}</p>
+                  </v-card-subtitle>
+                  <v-card-title>
+                    Semester:
+                  </v-card-title>
+                  <v-card-subtitle>
+                    <p>{{item.semester}}</p>
+                  </v-card-subtitle>
 
-                  <div class="collapse" id="test">
-                    <div class="card card-body">
-                      <p class="card-text">
-                        <?= $dat['deskripsi'] ?>
-                        <br>
-                        <!--<?= $dat['id'] ?>-->
-                      </p>
+                  <v-card-actions>
+
+                    <template v-if="reveal != item.Matkul">
+                      <v-btn class="btn" color="primary" text @click="reveal = item.Matkul">
+                        <v-icon left>mdi-chevron-down</v-icon>
+                        Detail Mata Kuliah
+                      </v-btn>
+                    </template>
+
+                    <template v-if="reveal == item.Matkul">
+                      <v-btn class="btn" color="orange lighten-2" text @click="reveal = false">
+                        <v-icon left>mdi-chevron-up</v-icon>
+                        Back
+                      </v-btn>
+                    </template>
+                  </v-card-actions>
+
+                  <v-expand-transition>
+                    <div v-if="reveal == item.Matkul">
+                      <v-divider></v-divider>
+                      <v-card-title>
+                        Deskripsi
+                      </v-card-title>
+                      <v-card-text>
+                        {{item.deskripsi}}
+                      </v-card-text>
+                      <v-divider></v-divider>
                     </div>
-                  </div>
-                </div>
-                <hr>
+                  </v-expand-transition>
+                </v-card>
+              </v-col>
+            </v-col>
+          </v-row>
+        </v-container>
+        </v-col>
+      </v-row>
 
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <div class="header-data"> <b>Jenis Mata Kuliah :</b>
-                    <div class="item-data"><?= $dat['jenisMatkul'] ?></div>
-                  </div>
-                </li>
-                <li class="list-group-item">
-                  <div class="header-data"> <b>Dosen Pengajar :</b></div>
-                  <div class="item-data"><?= $dat['dosenPengajar'] ?></div>
-                </li>
-                <li class="list-group-item">
-                  <div class="header-data"> <b>Jumlah SKS :</b></div>
-                  <div class="item-data"><?= $dat['jumlahSks'] ?></div>
-                </li>
-                <li class="list-group-item">
-                  <div class="header-data"> <b>Semester :</b></div>
-                  <div class="item-data"><?= $dat['semester'] ?></div>
-                </li>
-              </ul>
+    </v-container>
 
-            </div>
-          </div>
-
-        <?php endforeach; ?>
-      </div>
-    </div>
   </div>
+  <footer>&copy; MataKuliah</footer>
+
 </body>
-<footer class="py-2 mt-auto" style="background: linear-gradient(to right, rgb(0, 110, 255), rgba(2, 100, 229, 0.658))">
-  <div class="container">
-    <div class="row align-items-center justify-content-center flex-column flex-sm-row">
-      <div class="col-auto">
-        <p class="text-white">Copyright &copy; MataKuliah 2021</p>
-      </div>
-
-    </div>
-  </div>
-</footer>
 <style>
+  .pict {
+    left: 40%;
+    right: 40%;
 
+  }
+
+  .title {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .btn {
+    text-transform: capitalize;
+  }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+  var application = new Vue({
+    el: '#App',
+    vuetify: new Vuetify(),
+    data: {
+      reveal: [{
 
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
+      }],
+      listToShow: 12,
+      input: '',
+      matkul_data: [],
+      query: '',
+      sortedItem: '',
+      sortType: '',
+      nodata: false
+    },
+    methods: {
+      submit() {
+        axios.post('proses.php', {
+          data: this.input
+        }).then(response => {
+          this.matkul_data = response.data
+        })
+      }
+    },
+    created() {
+      axios.get('proses.php', {
+        data: this.input
+      }).then(response => {
+        this.matkul_data = response.data
+      })
+    },
+    computed: {
+      filteredList: function() {
+        return Object.values(this.matkul_data).sort((p1, p2) => {
+          if (this.sortedItem != 'Matkul' || this.sortedItem != 'jenisMatkul') {
+            let modifier = 1;
+            if (p1[this.sortedItem] < p2[this.sortedItem]) return -1 * modifier;
+            if (p1[this.sortedItem] > p2[this.sortedItem]) return 1 * modifier;
+            return 0;
+          } else {}
+        })
+      }
+    }
+  });
+</script>
 </body>
 
 </html>
