@@ -479,7 +479,7 @@ p:P69        d:namaMatkul	        "Seminar" ;
              d:jumlahSks            1;
              d:semester             8.
 
-p:P71        d:namaMatkul	        "Tugas Akhir" ;
+p:P70        d:namaMatkul	        "Tugas Akhir" ;
              d:jenisMatkul       	"Wajib" ;
              d:dosenPengajar        "-" ;
              d:deskripsi            "Tugas Akhir";
