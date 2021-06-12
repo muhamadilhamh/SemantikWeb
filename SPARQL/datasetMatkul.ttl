@@ -57,7 +57,7 @@ p:P08        d:namaMatkul	        "Pengantar Teknologi Komputer & Informatika" ;
              d:dosenPengajar        "Dr. Asep Sholahuddin, MT" ;
              d:deskripsi            "Mata kuliah ini memperkenalkan teknologi informasi sebagai bagian dari upaya memanfaatkan informasi yang melandasi pengembangan kreativitas secara etis. Materi bahasan: Pengenalan terhadap sistem dan organisasi computer, perangkat keras dan lunak, jaringan komunikasi (termasuk internet), implikasi penggunaan teknologi informasi dalam berbagai aspek kehidupan manusia, kemampuan berpikir komputasional melalui dasar pemrograman prosedural dalam satu bahasa pemrograman yang dipilih.";
              d:jumlahSks            "3 sks";
-             d:semester             "Semester 2".
+             d:semester             "Semester 1".
 
 p:P09        d:namaMatkul	        "Bahasa Inggris I" ;
              d:jenisMatkul       	"Wajib" ;

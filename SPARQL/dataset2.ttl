@@ -1,0 +1,283 @@
+@prefix p: <http://TI.com>
+@prefix d: <http://TI.com/ns/data#>
+
+# Detail
+p:detail1    d:deskripsi        "Agama";
+             d:keterangan       "Tidak ada";
+             d:syaratAmbil      "-".
+
+p:detail2    d:deskripsi        "Pancasila";
+             d:keterangan       "Tidak ada";
+             d:syaratAmbil      "-".
+
+p:detail3    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail4    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail5    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail6    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail7    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail8    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail9    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail10    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail11    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Memiliki Praktikum";
+             d:syaratAmbil      "Telah menyelesaikan matkul Kalkulus 1".
+
+p:detail12    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail13    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail14    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail15    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail16    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail17    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail18    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail19    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail20    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail21    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail22    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail23    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail24    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail25    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail26    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail27    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail28    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail29    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail30    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail31    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail32    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail33    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail34    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail35    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail36    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail37    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail38    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail39    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail40    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".  
+
+p:detail41    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail42    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail43    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail44    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail45    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail46    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail47    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail48    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail49    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail50    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail51    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail52    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail53    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail54    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail55    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail56    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail57    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail58    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail59    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail60    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail61    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail62    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail63    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail64    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail65    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail66    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail67    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail68    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail69    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".
+
+p:detail70    d:deskripsi        "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+             d:keterangan      "Min nilai mutu akhir adalah C";
+             d:syaratAmbil      "-".

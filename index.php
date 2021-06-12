@@ -306,7 +306,6 @@
         {
           name: "Peminatan"
         },
-
       ],
       listToShow: 6,
       loadList: false,

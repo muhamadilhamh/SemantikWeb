@@ -1,0 +1,421 @@
+#testing
+@prefix p: <http://TI.com>
+@prefix d: <http://TI.com/ns/data#>
+
+p:P01        d:namaMatkul	        "Agama" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 1".
+
+p:P02        d:namaMatkul	        "Pancasila" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 1".
+             
+
+p:P03        d:namaMatkul	        "Bahasa Indonesia" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 1".
+             
+
+p:P04        d:namaMatkul	        "Olah Raga, Kebugaran dan Kreatifitas (OKK)" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 1".
+
+p:P05        d:namaMatkul	        "Kalkulus I" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 1".
+
+p:P06        d:namaMatkul	        "Logika Informatika" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Drs. Ino Suryana, M.Kom" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 1".
+
+p:P07        d:namaMatkul	        "Algoritma & Pemrograman" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Mira Suryani, S.Pd., M.Kom." ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 1".
+
+p:P08        d:namaMatkul	        "Pengantar Teknologi Komputer & Informatika" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Dr. Asep Sholahuddin, MT" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 1".
+
+p:P09        d:namaMatkul	        "Bahasa Inggris I" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 2".
+
+p:P10        d:namaMatkul	        "Kewarganegaraan" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 2".
+
+p:P11        d:namaMatkul	        "Kalkulus II" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 2".
+
+p:P12        d:namaMatkul	        "Fisika Informatika" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 2".
+
+p:P13        d:namaMatkul	        "Statistika" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 2".
+
+p:P14        d:namaMatkul	        "Struktur Data" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Mira Suryani, S.Pd., M.Kom." ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 2".
+
+p:P15        d:namaMatkul	        "Arsitektur & Organisasi Komputer" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Drs. Ino Suryana, M.Kom" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 2".
+
+p:P16        d:namaMatkul	        "Sistem Database I" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Dr. Juli Rejito, M.Kom" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 2".
+
+p:P17        d:namaMatkul	        "Aljabar Linier" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 3".
+
+p:P18        d:namaMatkul	        "Metode Numerik" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Dr. Afrida Helen, MT." ;            
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 3".
+
+p:P19        d:namaMatkul	        "Matematika Diskrit" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Akik Hidayat, DRs., M.Kom" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 3".
+
+p:P20        d:namaMatkul	        "Sistem Operasi" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Rudi Rosadi, S.Si., M.Kom" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 3".
+
+p:P21        d:namaMatkul	        "Pemrograman Web" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Rudi Rosadi, S.Si., M.Kom" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 3".
+
+p:P22        d:namaMatkul	        "Pemrograman Berorientasi Objek" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Erick Paulus, M.Kom." ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 3".
+
+p:P23        d:namaMatkul	        "Sistem Database II" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Dr. Juli Rejito, M.Kom" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 3".
+
+p:P24        d:namaMatkul	        "Bahasa Inggris II" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 4".
+
+p:P25        d:namaMatkul	        "Operasional Riset" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 4".
+
+p:P26        d:namaMatkul	        "Artificial Intelligence" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Dr. Asep Sholahuddin, MT" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 4".
+
+p:P27        d:namaMatkul	        "Jaringan Komputer" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Aditya Pradana, S.T., M.Eng." ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 4".
+
+p:P28        d:namaMatkul	        "Sistem Informasi" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Prof. Dr. Atje Setiawan A.,MS, M.Kom" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 4".
+
+p:P29        d:namaMatkul	        "Kecakapan Antar Personal" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 4".
+
+p:P30        d:namaMatkul	        "Analisis Algoritma" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Mira Suryani, S.Pd., M.Kom." ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 4".
+
+p:P31        d:namaMatkul	        "Etika Profesi" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Dr. Setiawan Hadi, M.Sc.CS." ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 4".
+
+p:P32        d:namaMatkul	        "Telematika" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Deni Setiana, S.SI., M.Cs" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P33        d:namaMatkul	        "Enterpreneurship" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "R. Sudrajat, Drs., M.Si" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 5".
+
+p:P34        d:namaMatkul	        "Rekayasa Perangkat Lunak" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "R. Sudrajat, Drs., M.Si" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P35        d:namaMatkul	        "Metodologi Penelitian" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Prof. Dr. Atje Setiawan A.,MS, M.Kom" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 5".
+
+p:P36        d:namaMatkul	        "Pemodelan dan Simulasi" ;
+             d:jenisMatkul       	"Peminatan, Ilmu Komputasi dan Metode Numerik (IKMN)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P37        d:namaMatkul	        "Analisis Numerik" ;
+             d:jenisMatkul       	"Peminatan, Ilmu Komputasi dan Metode Numerik (IKMN)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P38        d:namaMatkul	        "Decision Support Systems" ;
+             d:jenisMatkul       	"Peminatan, Sistem Informasi dan Sistem Multimedia (SISM)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P39        d:namaMatkul	        "Kriptografi" ;
+             d:jenisMatkul       	"Peminatan, Sistem Informasi dan Sistem Multimedia (SISM)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P40        d:namaMatkul	        "Grafika Komputer" ;
+             d:jenisMatkul       	"Peminatan, Sistem Cerdas dan Sistem Grafika (SCSG)" ;
+             d:dosenPengajar        "Dr. Setiawan Hadi, M.Sc.CS." ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P41        d:namaMatkul	        "Robotika" ;
+             d:jenisMatkul       	"Peminatan, Sistem Cerdas dan Sistem Grafika (SCSG)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P42        d:namaMatkul	        "Sistem Keamanan Jaringan" ;
+             d:jenisMatkul       	"Peminatan, Jaringan Komputer dan Komunikasi Data (JKKD)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P43        d:namaMatkul	        "Sistem Terdistribusi" ;
+             d:jenisMatkul       	"Peminatan, Jaringan Komputer dan Komunikasi Data (JKKD)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 5".
+
+p:P44        d:namaMatkul	        "Interaksi Manusia & Komputer" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Mira Suryani, S.Pd., M.Kom." ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P45        d:namaMatkul	        "Teori Bahasa & Automata" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Rudi Rosadi, S.Si., M.Kom" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P46        d:namaMatkul	        "Proyek Perangkat Lunak I" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Akmal, S.Si., MT" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 6".
+
+p:P47        d:namaMatkul	        "Data Warehouse" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Dr. Intan Nurma Yulita, M.T." ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 6".
+
+p:P48        d:namaMatkul	        "Persamaan Differensial" ;
+             d:jenisMatkul       	"Peminatan, Ilmu Komputasi dan Metode Numerik (IKMN)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P49        d:namaMatkul	        "Optimization Problems" ;
+             d:jenisMatkul       	"Peminatan, Ilmu Komputasi dan Metode Numerik (IKMN)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P50        d:namaMatkul	        "Sistem Informasi Multimedia" ;
+             d:jenisMatkul       	"Peminatan, Sistem Informasi dan Sistem Multimedia (SISM)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P51        d:namaMatkul	        "Semantik Web" ;
+             d:jenisMatkul       	"Peminatan, Sistem Informasi dan Sistem Multimedia (SISM)" ;
+             d:dosenPengajar        "Aditya Pradana, S.T., M.Eng." ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P52        d:namaMatkul	        "Pengolahan dan Analisis Citra Digital" ;
+             d:jenisMatkul       	"Peminatan, Sistem Cerdas dan Sistem Grafika (SCSG)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P53        d:namaMatkul	        "Soft Computing" ;
+             d:jenisMatkul       	"Peminatan, Sistem Cerdas dan Sistem Grafika (SCSG)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P54        d:namaMatkul	        "Manajemen Jaringan" ;
+             d:jenisMatkul       	"Peminatan, Jaringan Komputer dan Komunikasi Data (JKKD)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P56        d:namaMatkul	        "Mobile Computing" ;
+             d:jenisMatkul       	"Peminatan, Jaringan Komputer dan Komunikasi Data (JKKD)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 6".
+
+p:P57        d:namaMatkul	        "Data Mining" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "Dr. Intan Nurma Yulita, M.T." ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 7".
+
+p:P58        d:namaMatkul	        "Proyek Perangkat Lunak II" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 7".
+
+p:P59        d:namaMatkul	        "Manajemen Project" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 7".
+
+p:P60        d:namaMatkul	        "KKN - Magang" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "2 sks";
+             d:semester             "Semester 7".
+
+p:P61        d:namaMatkul	        "Kapita Selekta IKMN" ;
+             d:jenisMatkul       	"Peminatan, Ilmu Komputasi dan Metode Numerik (IKMN)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 7".
+
+p:P62        d:namaMatkul	        "High Performance Computing" ;
+             d:jenisMatkul       	"Peminatan, Ilmu Komputasi dan Metode Numerik (IKMN)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 7".
+
+p:P63        d:namaMatkul	        "Kapita Selekta SISM" ;
+             d:jenisMatkul       	"Peminatan, Sistem Informasi dan Sistem Multimedia (SISM)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 7".
+
+p:P64        d:namaMatkul	        "Sistem Informasi Geografi" ;
+             d:jenisMatkul       	"Peminatan, Sistem Informasi dan Sistem Multimedia (SISM)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 7".
+
+p:P65        d:namaMatkul	        "Kapita Selekta SCSG" ;
+             d:jenisMatkul       	"Peminatan, Sistem Cerdas dan Sistem Grafika (SCSG)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 7".
+
+p:P66        d:namaMatkul	        "Machine Learning" ;
+             d:jenisMatkul       	"Peminatan, Sistem Cerdas dan Sistem Grafika (SCSG)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 7".    
+
+p:P67        d:namaMatkul	        "Kapita Selekta JKKD" ;
+             d:jenisMatkul       	"Peminatan, Jaringan Komputer dan Komunikasi Data (JKKD)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 7".  
+
+p:P68        d:namaMatkul	        "Jaringan Komputer Lanjut" ;
+             d:jenisMatkul       	"Peminatan, Jaringan Komputer dan Komunikasi Data (JKKD)" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "3 sks";
+             d:semester             "Semester 7". 
+
+p:P69        d:namaMatkul	        "Seminar" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "1 sks";
+             d:semester             "Semester 8".
+
+p:P70        d:namaMatkul	        "Tugas Akhir" ;
+             d:jenisMatkul       	"Wajib" ;
+             d:dosenPengajar        "-" ;
+             d:jumlahSks            "7 sks";
+             d:semester             "Semester 8".              
+
+
