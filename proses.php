@@ -18,13 +18,13 @@ if ($data_received) {
             d:dosenPengajar ?dosenPengajar;
             d:jumlahSks ?jumlahSks;
             d:semester ?semester;
-            d:tentangMatkul ?lorem.
+            d:tentangMatkul ?tentangMatkul.
 
-        ?lorem  d:deskripsi      ?deskripsi;
-                d:keterangan    ?keterangan;
-                d:syaratAmbil    ?syaratAmbil;
+        ?tentangMatkul  d:deskripsi      ?deskripsi;
+                        d:keterangan    ?keterangan;
+                        d:syaratAmbil    ?syaratAmbil;
 
-             FILTER (regex(?jumlahSks, '$test') || regex(?Matkul, '$test','i') || regex(?jenisMatkul,  '$test','i') ||   regex(?dosenPengajar, '$test','i') || regex(?semester, '$test') || regex(?keterangan, '$test','i'))      
+             FILTER (regex(?jumlahSks, '$test') || regex(?Matkul, '$test','i') || regex(?jenisMatkul,  '$test','i') ||   regex(?dosenPengajar, '$test','i') || regex(?semester, '$test', 'i') || regex(?keterangan, '$test','i'))      
     } "
   );
 } else {
@@ -34,7 +34,7 @@ if ($data_received) {
     prefix p: <http://matakuliahTI.com>
     prefix d: <http://matakuliahTI.com/ns/data#>
 
-    SELECT  ?Matkul ?jenisMatkul ?dosenPengajar ?jumlahSks ?semester ?deskripsi ?keterangan ?syaratAmbil
+    SELECT  ?Matkul ?jenisMatkul ?dosenPengajar ?jumlahSks ?semester ?deskripsi ?keterangan ?syaratAmbil ?tentangMatkul
     WHERE
     { 
         ?s  d:namaMatkul ?Matkul ;
@@ -42,11 +42,11 @@ if ($data_received) {
             d:dosenPengajar ?dosenPengajar;
             d:jumlahSks ?jumlahSks;
             d:semester ?semester;
-            d:tentangMatkul ?lorem.
+            d:tentangMatkul ?tentangMatkul.
 
-        ?lorem  d:deskripsi      ?deskripsi;
-                d:keterangan    ?keterangan;
-                d:syaratAmbil    ?syaratAmbil;
+        ?tentangMatkul  d:deskripsi      ?deskripsi;
+                        d:keterangan     ?keterangan;
+                        d:syaratAmbil    ?syaratAmbil;
                   
     }
           "
