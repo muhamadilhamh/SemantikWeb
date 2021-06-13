@@ -31,7 +31,7 @@
 
 .warna-bg {
     background: linear-gradient(to right, rgb(0, 110, 255), rgba(2, 100, 229, 0.658));
-    height: 437px;
+    height: max-content;
 }
 
 .has-search .form-control {

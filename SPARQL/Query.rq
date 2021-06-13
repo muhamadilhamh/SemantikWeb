@@ -1,14 +1,18 @@
-PREFIX p: <http://matakuliahTI.com>
-    PREFIX d: <http://matakuliahTI.com/ns/data#>
-    
-    SELECT ?id ?Matkul ?jenisMatkul ?deskripsi ?dosenPengajar ?jumlahSks ?semester
-    WHERE
+prefix p: <http://matakuliahTI.com>
+prefix d: <http://matakuliahTI.com/ns/data#>
+
+SELECT  ?Matkul ?jenisMatkul ?dosenPengajar ?jumlahSks ?semester ?deskripsi ?keterangan ?syaratAmbil
+WHERE
     { 
-        ?id d:namaMatkul ?Matkul ;
+        ?s  d:namaMatkul ?Matkul ;
             d:jenisMatkul ?jenisMatkul;
-            d:deskripsi ?deskripsi;
             d:dosenPengajar ?dosenPengajar;
             d:jumlahSks ?jumlahSks;
             d:semester ?semester;
-    
+            d:tentangMatkul ?lorem.
+
+        ?lorem  d:deskripsi     ?deskripsi;
+                d:keterangan    ?keterangan;
+                d:syaratAmbil   ?syaratAmbil;
+                  
     }

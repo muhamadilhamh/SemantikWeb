@@ -1,5 +1,5 @@
-@prefix p: <http://TI.com>
-@prefix d: <http://TI.com/ns/data#>
+@prefix p: <http://matakuliahTI.com>
+@prefix d: <http://matakuliahTI.com/ns/data#>
 
 # Detail
 p:detail1    d:deskripsi        "Tidak Ada Info";

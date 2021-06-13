@@ -1,7 +1,8 @@
-#testing
-@prefix p: <http://TI.com>
-@prefix d: <http://TI.com/ns/data#>
+@prefix p: <http://matakuliahTI.com>
+@prefix d: <http://matakuliahTI.com/ns/data#>
 
+
+#data
 p:P01        d:namaMatkul	        "Agama" ;
              d:jenisMatkul       	"Wajib" ;
              d:dosenPengajar        "-" ;
@@ -416,6 +417,8 @@ p:P70        d:namaMatkul	        "Tugas Akhir" ;
              d:jenisMatkul       	"Wajib" ;
              d:dosenPengajar        "-" ;
              d:jumlahSks            "7 sks";
-             d:semester             "Semester 8".              
+             d:semester             "Semester 8".       
+
+       
 
 

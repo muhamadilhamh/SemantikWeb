@@ -24,7 +24,7 @@
                 <v-btn href="index.php" class="btn" text> Mata <b>Kuliah</b></v-btn>
               </v-card-action>
               <v-card-action>
-                <v-btn href="about.html" class="btn" text>About Teknik Informatika</v-btn>
+                <v-btn href="about.php" class="btn" text>About Teknik Informatika</v-btn>
               </v-card-action>
 
             </v-toolbar-title>
@@ -92,6 +92,11 @@
                   <v-autocomplete clearable small-chips dense outlined rounded :items="sks" v-model="selected_sks" item-text="name" item-value="name" @change="getMatkul(selected_sks)">
                   </v-autocomplete>
                 </v-col>
+                <v-col lg="3" v-if="showFilter">
+                  <p class="filter">Praktikum</p>
+                  <v-autocomplete clearable small-chips dense outlined rounded :items="praktikum" v-model="selected_praktikum" item-text="name" item-value="name" @change="getMatkul(selected_praktikum)">
+                  </v-autocomplete>
+                </v-col>
               </v-row>
             </v-container>
 
@@ -109,7 +114,7 @@
                       <hr>
 
                       <v-card-title>
-                        Jenis Mata Pelajaran :
+                        Jenis Mata Kuliah :
                       </v-card-title>
                       <v-card-subtitle>
                         <h4 class="bg_jenisMatkul">{{item.jenisMatkul}}</h4>
@@ -159,10 +164,24 @@
                           <v-card-title>
                             Deskripsi
                           </v-card-title>
-                          <v-card-text>
+                          <v-card-text class="desc">
                             {{item.deskripsi}}
                           </v-card-text>
                           <v-divider></v-divider>
+                          <v-card-title>
+                            Praktikum
+                          </v-card-title>
+                          <v-card-text>
+                            <h4 class="bg_semester">{{item.keterangan}}</h4>
+                          </v-card-text>
+                          <v-divider></v-divider>
+                          <v-card-title>
+                            Syarat Ambil
+                          </v-card-title>
+                          <v-card-text>
+                            <h4 class="bg_semester">{{item.syaratAmbil}}</h4>
+                          </v-card-text>
+
                         </div>
                       </v-expand-transition>
                     </v-card>
@@ -177,14 +196,29 @@
           </v-row>
         </v-container>
       </div>
+      <footer class="footer_bg">
+        <p class="footer">&copy; MataKuliah</p>
+      </footer>
     </v-app>
   </div>
-  <footer>&copy; MataKuliah</footer>
 
 
 
 </body>
 <style>
+  .footer_bg {
+    background: linear-gradient(to right, rgb(0, 110, 255), rgba(2, 100, 229, 0.658));
+    height: max-content;
+    margin-top: 50px;
+  }
+
+  .footer {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: 500;
+  }
+
   .pict {
     left: 40%;
     right: 40%;
@@ -213,15 +247,26 @@
   .bg_sks {
     background-color: rgb(0, 110, 255);
     border-radius: 10px;
-    width: 50px;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     color: white;
+  }
+
+  .desc {
+    white-space: pre-line;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
   }
 
   .bg_semester {
     background-color: rgb(0, 110, 255);
     border-radius: 10px;
-    width: 90px;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     color: white;
   }
@@ -229,15 +274,20 @@
   .bg_dosen {
     background-color: rgb(0, 110, 255);
     border-radius: 10px;
-    width: 250px;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     color: white;
   }
 
   .bg_jenisMatkul {
+    white-space: pre-line;
     background-color: rgb(0, 110, 255);
     border-radius: 10px;
-    width: auto;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     color: white;
   }
@@ -305,6 +355,14 @@
         },
         {
           name: "Peminatan"
+        },
+      ],
+      selected_praktikum: '',
+      praktikum: [{
+          name: "Memiliki Praktikum"
+        },
+        {
+          name: "Tidak ada"
         },
       ],
       listToShow: 6,

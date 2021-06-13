@@ -5,41 +5,49 @@ $data_received = json_decode(file_get_contents("php://input"));
 if ($data_received) {
   $test = $data_received->data;
   $data = sparql_get(
-    "http://localhost:3030/matakuliah",
+    "http://localhost:3030/uasSemweb",
     "
-    PREFIX p: <http://matakuliahTI.com>
-    PREFIX d: <http://matakuliahTI.com/ns/data#>
-    
-    SELECT ?id ?Matkul ?jenisMatkul ?deskripsi ?dosenPengajar ?jumlahSks ?semester
+    prefix p: <http://matakuliahTI.com>
+    prefix d: <http://matakuliahTI.com/ns/data#>
+
+    SELECT  ?Matkul ?jenisMatkul ?dosenPengajar ?jumlahSks ?semester ?deskripsi ?keterangan ?syaratAmbil
     WHERE
     { 
-        ?id d:namaMatkul ?Matkul ;
+        ?s  d:namaMatkul ?Matkul ;
             d:jenisMatkul ?jenisMatkul;
-            d:deskripsi ?deskripsi;
             d:dosenPengajar ?dosenPengajar;
             d:jumlahSks ?jumlahSks;
             d:semester ?semester;
-            FILTER (regex(?jumlahSks, '$test') || regex(?Matkul, '$test','i') || regex(?jenisMatkul,  '$test','i') ||   regex(?dosenPengajar, '$test','i') || regex(?semester, '$test' ))
-    }
-          "
+            d:tentangMatkul ?lorem.
+
+        ?lorem  d:deskripsi      ?deskripsi;
+                d:keterangan    ?keterangan;
+                d:syaratAmbil    ?syaratAmbil;
+
+             FILTER (regex(?jumlahSks, '$test') || regex(?Matkul, '$test','i') || regex(?jenisMatkul,  '$test','i') ||   regex(?dosenPengajar, '$test','i') || regex(?semester, '$test') || regex(?keterangan, '$test','i'))      
+    } "
   );
 } else {
   $data = sparql_get(
-    "http://localhost:3030/matakuliah",
+    "http://localhost:3030/uasSemweb",
     "
-    PREFIX p: <http://matakuliahTI.com>
-    PREFIX d: <http://matakuliahTI.com/ns/data#>
-    
-    SELECT ?id ?Matkul ?jenisMatkul ?deskripsi ?dosenPengajar ?jumlahSks ?semester
+    prefix p: <http://matakuliahTI.com>
+    prefix d: <http://matakuliahTI.com/ns/data#>
+
+    SELECT  ?Matkul ?jenisMatkul ?dosenPengajar ?jumlahSks ?semester ?deskripsi ?keterangan ?syaratAmbil
     WHERE
     { 
-        ?id d:namaMatkul ?Matkul ;
+        ?s  d:namaMatkul ?Matkul ;
             d:jenisMatkul ?jenisMatkul;
-            d:deskripsi ?deskripsi;
             d:dosenPengajar ?dosenPengajar;
             d:jumlahSks ?jumlahSks;
             d:semester ?semester;
-    
+            d:tentangMatkul ?lorem.
+
+        ?lorem  d:deskripsi      ?deskripsi;
+                d:keterangan    ?keterangan;
+                d:syaratAmbil    ?syaratAmbil;
+                  
     }
           "
   );

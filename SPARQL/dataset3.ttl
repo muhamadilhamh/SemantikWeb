@@ -1,6 +1,0 @@
-@prefix p: <http://TI.com>
-@prefix d: <http://TI.com/ns/data#>
-
-p:P01   d:tentangMatkul     p:detail1 .
-p:P02   d:tentangMatkul     p:detail2 .
-p:P03   d:tentangMatkul     p:detail3 .
