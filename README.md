@@ -18,12 +18,6 @@ Spesifikasi perangkat keras dalam pengembangan aplikasi:
 -Memory : 12,00 GB RAM
 -System Type : 64 bit
 
-Spesifikasi minimum menjalankan aplikasi:
-
--Processor : Intel Core i5-8250U @1.60 GHz 
--Memory : 12,00 GB RAM
--System Type : 64 bit
-
 Kebutuhan perangkat lunak untuk menjalankan aplikasi :
 -Processor : 1.6 GHz atau prosesor yang lebih cepat
 -Memory : 1 GB RAM
