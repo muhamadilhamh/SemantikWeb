@@ -179,7 +179,7 @@
                             Syarat Ambil
                           </v-card-title>
                           <v-card-text>
-                            <h4 class="bg_semester">{{item.syaratAmbil}}</h4>
+                            <h4 class="bg_syarat">{{item.syaratAmbil}}</h4>
                           </v-card-text>
 
                         </div>
@@ -265,6 +265,16 @@
     background-color: rgb(0, 110, 255);
     border-radius: 10px;
     width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .bg_syarat {
+    background-color: rgb(0, 110, 255);
+    border-radius: 10px;
+    width: fit-content;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
