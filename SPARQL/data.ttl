@@ -1,0 +1,270 @@
+@prefix p: <http://matakuliahTI.com>
+@prefix d: <http://matakuliahTI.com/ns/data#>
+
+#Jenis Mata Kuliah
+d:jenis1    d:jenisMatkul "Wajib";
+            d:isJenisMatkul d:P01, d:P02, d:P03, d:P04, d:P05, d:P06, d:P07, d:P08, d:P09, d:P10, d:P11, d:P12, d:P13, d:P14, d:P15, 
+                            d:P16, d:P17, d:P18, d:P19, d:P20, d:P21, d:P22, d:P23, d:P24, d:P25, d:P26, d:P28, d:P29, d:P30, d:P31, 
+                            d:P32, d:P33, d:P34, d:P35, d:P44, d:P45, d:P46, d:P47, d:P57, d:P58, d:P59, d:P60, d:P69, d:P70.
+d:jenis2    d:jenisMatkul "Peminatan, Ilmu Komputasi dan Metode Numerik (IKMN)";
+            d:isJenisMatkul d:P36, d:P37, d:P48, d:P49, d:P61, d:P62.
+d:jenis3    d:jenisMatkul "Peminatan, Sistem Informasi dan Sistem Multimedia (SISM)";
+            d:isJenisMatkul d:P38, d:P39, d:P50, d:P51, d:P63, d:P64.
+d:jenis4    d:jenisMatkul "Peminatan, Sistem Cerdas dan Sistem Grafika (SCSG)";
+            d:isJenisMatkul d:P40, d:P41, d:P52, d:P53, d:P65, d:P66.
+d:jenis5    d:jenisMatkul "Peminatan, Jaringan Komputer dan Komunikasi Data (JKKD)";
+            d:isJenisMatkul d:P42, d:P43, d:P54, d:P55, d:P67, d:P68.
+
+#Semester
+d:sem1  d:semester "Semester 1";
+        d:isSemester d:P01, d:P02, d:P03, d:P04, d:P05, d:P06, d:P07, d:P08.
+d:sem2  d:semester "Semester 2";
+        d:isSemester d:P09, d:P10, d:P11, d:P12, d:P13, d:P14, d:P15, d:P16.
+d:sem3  d:semester "Semester 3";
+        d:isSemester d:P17, d:P18, d:P19, d:P20, d:P21, d:P22, d:P23.
+d:sem4  d:semester "Semester 4";
+        d:isSemester d:P24, d:P25, d:P26, d:P27, d:P28, d:P29, d:P30, d:P31.
+d:sem5  d:semester "Semester 5";
+        d:isSemester d:P32, d:P33, d:P34, d:P35, d:P36, d:P37, d:P38, d:P39, d:P40, d:P41, d:P42, d:P43.
+d:sem6  d:semester "Semester 6";
+        d:isSemester d:P44, d:P45, d:P46, d:P47, d:P48, d:P49, d:P50, d:P51, d:P52, d:P53, d:P54, d:P55.
+d:sem7  d:semester "Semester 7";
+        d:isSemester d:P56, d:P57, d:P58, d:P59, d:P60, d:P61, d:P62, d:P63, d:P64, d:P65, d:P66, d:P67.
+d:sem8  d:semester "Semester 8";
+        d:isSemester d:P68, d:P69.
+
+#SKS
+d:sks1  d:sks "1 SKS";
+        d:isSks d:P68.
+d:sks2  d:sks "2 SKS";
+        d:isSks d:P01, d:P02, d:P03, d:P09, d:P10, d:P13, d:P23, d:P24, d:P25, 
+                d:P29, d:P31, d:P33, d:P35, d:P46, d:P47, d:P57, d:P58, d:P59.
+d:sks3  d:sks "3 SKS";
+        d:isSks d:P04, d:P05, d:P06, d:P07, d:P08, d:P11, d:P12, d:P14, d:P15, d:P16,
+                d:P17, d:P18, d:P19, d:P20, d:P21, d:P22, d:P26, d:P27, d:P28, d:P30,
+                d:P32, d:P34, d:P36, d:P37, d:P38, d:P39, d:P40, d:P41, d:P42, d:P43,
+                d:P44, d:P45, d:P48, d:P49, d:P50, d:P51, d:P52, d:P53, d:P54, d:P55,
+                d:P56, d:P57, d:P60, d:P61, d:P62, d:P63, d:P64, d:P65, d:P66.
+d:sks4  d:sks "7 SKS";
+        d:isSks d:P69.
+
+#Praktikum
+d:prak1 d:prak "Memiliki Praktikum";
+        d:isPrak    d:P07, d:P14, d:P16, d:P21, d:P22, d:P23, d:P27, d:P30, d:P32, d:P34,
+                    d:P40, d:P41, d:P42, d:P47, d:P50, d:P51, d:P52, d:P53, d:P54, d:P56,
+                    d:P61, d:P63, d:P67.
+d:prak2 d:prak "Tidak Ada";
+        d:isPrak    d:P01, d:P02, d:P03, d:P04, d:P05, d:P06, d:P08, d:P09, d:P10, d:P11,
+                    d:P12, d:P13, d:P15, d:P17, d:P18, d:P19, d:P20, d:P24, d:P25, d:P26,
+                    d:P28, d:P29, d:P31, d:P32, d:P33, d:P35, d:P36, d:P37, d:P38, d:P39,
+                    d:P43, d:P44, d:P45, d:P46, d:P48, d:P49, d:P55, d:P57, d:P58, d:P59,
+                    d:P60, d:P62, d:P64, d:P65, d:P66, d:P68.
+
+#data
+d:P01       d:namaMatkul    "Agama" ;
+            d:deskripsi     "Tidak Ada Info";
+            d:syaratAmbil   "";
+d:P02       d:namaMatkul	"Pancasila" ;     
+            d:deskripsi     "Tidak Ada Info";
+            d:syaratAmbil   "";
+d:P03       d:namaMatkul	"Bahasa Indonesia" ;
+            d:deskripsi     "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
+            d:syaratAmbil   "";
+d:P04       d:namaMatkul    "Olah Raga, Kebugaran dan Kreatifitas (OKK)" ;
+            d:deskripsi     "Mata kuliah ini mendorong perkembangan kebugaran dan kreativitas mahasiswa dalam rangka menumbuhkan rasa kecintaan terhadap almamater dan mengembangkan karakter diri sebagai mahasiswa.";
+            d:syaratAmbil   "";
+d:P05       d:namaMatkul    "Kalkulus I" ;
+            d:deskripsi     "Topik-topik yang akan dibahas pada kuliah ini meliputi: Fungsi, Grafik, Limit, Kalkulus diferensial, Pene-rapan turunan, Fungsi Transenden, Integral, Teknik pengintegralan, Aplikasi integral";
+            d:syaratAmbil   "";
+d:P06       d:namaMatkul    "Logika Informatika" ;
+            d:deskripsi     "Mata kuliah ini membahas dasar-dasar logic programming dan aplikasinya dengan menggunakan Prolog. Topik-topik yang dibahas meliputi: Prolog programming, Horn clauses, resolution theorem proving, computing with predicate logic, constraint logic pro-gramming.";
+            d:syaratAmbil   "";
+d:P07       d:namaMatkul    "Algoritma & Pemrograman" ;
+            d:deskripsi     "Mata kuliah ini membahas : pengenalan algoritma. bahasa pemrograman, struktur dan ciri-ciri program spesifikasi formal dari pada sintaks dan semantiks. Pemrosesan daftar/list, manipu-lasi string, deskripsi data, type-type data, opearsi, pernyataan type dan program terstruktur dengan penggunaan bahasa pemrograman";
+            d:syaratAmbil   "";
+d:P08       d:namaMatkul    "Pengantar Teknologi Komputer & Informatika" ;
+            d:deskripsi     "Mata kuliah ini memperkenalkan teknologi informasi sebagai bagian dari upaya memanfaatkan informasi yang melandasi pengembangan kreativitas secara etis. Materi bahasan: Pengenalan terhadap sistem dan organisasi computer, perangkat keras dan lunak, jaringan komunikasi (termasuk internet), implikasi penggunaan teknologi informasi dalam berbagai aspek kehidupan manusia, kemampuan berpikir komputasional melalui dasar pemrograman prosedural dalam satu bahasa pemrograman yang dipilih.";
+            d:syaratAmbil   "";
+d:P09       d:namaMatkul    "Bahasa Inggris I" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P10       d:namaMatkul    "Kewarganegaraan" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P11       d:namaMatkul    "Kalkulus II" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P12       d:namaMatkul    "Fisika Informatika" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P13       d:namaMatkul    "Statistika" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P14       d:namaMatkul    "Struktur Data" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P15       d:namaMatkul    "Arsitektur & Organisasi Komputer" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P16       d:namaMatkul    "Sistem Database I" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P17       d:namaMatkul    "Aljabar Linier" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P18       d:namaMatkul    "Metode Numerik" ;         
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P19       d:namaMatkul    "Matematika Diskrit" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P20       d:namaMatkul    "Sistem Operasi" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P21       d:namaMatkul    "Pemrograman Web" ;             
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P22       d:namaMatkul    "Pemrograman Berorientasi Objek" ;           
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P23       d:namaMatkul    "Sistem Database II" ;           
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P24       d:namaMatkul    "Bahasa Inggris II" ;          
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P25       d:namaMatkul    "Operasional Riset" ;         
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P26       d:namaMatkul    "Artificial Intelligence" ;         
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P27       d:namaMatkul    "Jaringan Komputer" ;          
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P28       d:namaMatkul    "Sistem Informasi" ;         
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P29       d:namaMatkul    "Kecakapan Antar Personal" ;         
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P30       d:namaMatkul    "Analisis Algoritma" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P31       d:namaMatkul    "Etika Profesi" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P32       d:namaMatkul    "Telematika" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P33       d:namaMatkul    "Enterpreneurship" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P34       d:namaMatkul    "Rekayasa Perangkat Lunak" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P35       d:namaMatkul    "Metodologi Penelitian" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P36       d:namaMatkul    "Pemodelan dan Simulasi" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P37       d:namaMatkul    "Analisis Numerik" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P38       d:namaMatkul    "Decision Support Systems" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P39       d:namaMatkul    "Kriptografi" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P40       d:namaMatkul    "Grafika Komputer" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P41       d:namaMatkul    "Robotika" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P42       d:namaMatkul    "Sistem Keamanan Jaringan" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P43       d:namaMatkul    "Sistem Terdistribusi" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P44       d:namaMatkul    "Interaksi Manusia & Komputer" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P45       d:namaMatkul    "Teori Bahasa & Automata" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P46       d:namaMatkul    "Proyek Perangkat Lunak I" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P47       d:namaMatkul    "Data Warehouse" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P48       d:namaMatkul    "Persamaan Differensial" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P49       d:namaMatkul    "Optimization Problems" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P50       d:namaMatkul    "Sistem Informasi Multimedia" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P51       d:namaMatkul    "Semantik Web" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P52       d:namaMatkul    "Pengolahan dan Analisis Citra Digital" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P53       d:namaMatkul    "Soft Computing" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P54       d:namaMatkul    "Manajemen Jaringan" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P55       d:namaMatkul    "Mobile Computing" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P56       d:namaMatkul    "Data Mining" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P57       d:namaMatkul    "Proyek Perangkat Lunak II" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P58       d:namaMatkul    "Manajemen Project" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P59       d:namaMatkul    "KKN - Magang" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P60       d:namaMatkul    "Kapita Selekta IKMN" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P61       d:namaMatkul    "High Performance Computing" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P62       d:namaMatkul    "Kapita Selekta SISM" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P63       d:namaMatkul    "Sistem Informasi Geografi" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P64       d:namaMatkul    "Kapita Selekta SCSG" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P65       d:namaMatkul    "Machine Learning" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P66       d:namaMatkul    "Kapita Selekta JKKD" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P67       d:namaMatkul    "Jaringan Komputer Lanjut" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P68       d:namaMatkul    "Seminar" ;
+            d:deskripsi     "";
+            d:syaratAmbil   "";
+d:P69       d:namaMatkul    "Tugas Akhir" ;
+            d:deskrips      "";
+            d:syaratAmbil   "";
