@@ -6,8 +6,8 @@ prefix d: <http://matakuliahTI.com/ns/data#>
         WHERE
         { 
   			?x	d:namaMatkul ?Matkul;
-  				  d:deskripsi	?Desc;
-  				  d:syaratAmbil ?Syarat.
+  				d:deskripsi	?Desc;
+  				d:syaratAmbil ?Syarat.
   
   			?p 	d:prak ?Prak;
   			  	d:isPrak ?x.
@@ -23,3 +23,5 @@ prefix d: <http://matakuliahTI.com/ns/data#>
   			
   			?d  d:dosen ?Dosen;
         		d:isDosen ?x.
+			FILTER (regex(?Matkul, '$test', 'i') || regex(?Dosen, '$test','i') ||  regex(?Sks, '$test', 'i') || regex(?Semester, '$test','i') || regex(?jenisMatkul, '$test','i') || regex(?Prak, '$test','i')) 
+		}

@@ -3,10 +3,10 @@ require_once("sparqllib.php");
 $test = "";
 $data_received = json_decode(file_get_contents("php://input"));
 if ($data_received) {
-  $test = $data_received->data;
-  $data = sparql_get(
-    "http://localhost:3030/datasemantik",
-    "
+	$test = $data_received->data;
+	$data = sparql_get(
+		"http://localhost:3030/datasemantik",
+		"
     prefix p: <http://matakuliahTI.com>
     prefix d: <http://matakuliahTI.com/ns/data#>
 
@@ -35,11 +35,11 @@ if ($data_received) {
 
       FILTER (regex(?Matkul, '$test', 'i') || regex(?Dosen, '$test','i') ||  regex(?Sks, '$test', 'i') || regex(?Semester, '$test','i') || regex(?jenisMatkul, '$test','i') || regex(?Prak, '$test','i'))      
     } "
-  );
+	);
 } else {
-  $data = sparql_get(
-    "http://localhost:3030/datasemantik",
-    "
+	$data = sparql_get(
+		"http://localhost:3030/datasemantik",
+		"
     prefix p: <http://matakuliahTI.com>
     prefix d: <http://matakuliahTI.com/ns/data#>
 
@@ -68,6 +68,6 @@ if ($data_received) {
                   
     }
           "
-  );
+	);
 }
 echo json_encode($data);
