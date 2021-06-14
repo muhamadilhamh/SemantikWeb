@@ -3,9 +3,9 @@
 
 #Jenis Mata Kuliah
 d:jenis1    d:jenisMatkul "Wajib";
-            d:isJenisMatkul d:P01, d:P02, d:P03, d:P04, d:P05, d:P06, d:P07, d:P08, d:P09, d:P10, d:P11, d:P12, d:P13, d:P14, d:P15, 
+            d:isJenisMatkul d:P69, d:P68, d:P01, d:P02, d:P03, d:P04, d:P05, d:P06, d:P07, d:P08, d:P09, d:P10, d:P11, d:P12, d:P13, d:P14, d:P15, 
                             d:P16, d:P17, d:P18, d:P19, d:P20, d:P21, d:P22, d:P23, d:P24, d:P25, d:P26, d:P28, d:P29, d:P30, d:P31, 
-                            d:P32, d:P33, d:P34, d:P35, d:P44, d:P45, d:P46, d:P47, d:P57, d:P58, d:P59, d:P60, d:P69, d:P70.
+                            d:P32, d:P33, d:P34, d:P35, d:P44, d:P45, d:P46, d:P47, d:P57, d:P58, d:P59, d:P60.
 d:jenis2    d:jenisMatkul "Peminatan, Ilmu Komputasi dan Metode Numerik (IKMN)";
             d:isJenisMatkul d:P36, d:P37, d:P48, d:P49, d:P61, d:P62.
 d:jenis3    d:jenisMatkul "Peminatan, Sistem Informasi dan Sistem Multimedia (SISM)";
@@ -13,7 +13,8 @@ d:jenis3    d:jenisMatkul "Peminatan, Sistem Informasi dan Sistem Multimedia (SI
 d:jenis4    d:jenisMatkul "Peminatan, Sistem Cerdas dan Sistem Grafika (SCSG)";
             d:isJenisMatkul d:P40, d:P41, d:P52, d:P53, d:P65, d:P66.
 d:jenis5    d:jenisMatkul "Peminatan, Jaringan Komputer dan Komunikasi Data (JKKD)";
-            d:isJenisMatkul d:P42, d:P43, d:P54, d:P55, d:P67, d:P68.
+            d:isJenisMatkul d:P42, d:P43, d:P54, d:P55, d:P67.
+
 
 #Semester
 d:sem1  d:semester "Semester 1";
@@ -54,11 +55,11 @@ d:prak1 d:prak "Memiliki Praktikum";
                     d:P40, d:P41, d:P42, d:P47, d:P50, d:P51, d:P52, d:P53, d:P54, d:P56,
                     d:P61, d:P63, d:P67.
 d:prak2 d:prak "Tidak Ada";
-        d:isPrak    d:P01, d:P02, d:P03, d:P04, d:P05, d:P06, d:P08, d:P09, d:P10, d:P11,
+        d:isPrak    d:P68, d:P69, d:P01, d:P02, d:P03, d:P04, d:P05, d:P06, d:P08, d:P09, d:P10, d:P11,
                     d:P12, d:P13, d:P15, d:P17, d:P18, d:P19, d:P20, d:P24, d:P25, d:P26,
                     d:P28, d:P29, d:P31, d:P32, d:P33, d:P35, d:P36, d:P37, d:P38, d:P39,
                     d:P43, d:P44, d:P45, d:P46, d:P48, d:P49, d:P55, d:P57, d:P58, d:P59,
-                    d:P60, d:P62, d:P64, d:P65, d:P66, d:P68.
+                    d:P60, d:P62, d:P64, d:P65, d:P66.
 
 #Dosen
 d:dosen1  d:dosen "Drs. Ino Suryana, M.Kom";
@@ -91,6 +92,12 @@ d:dosen14  d:dosen "Akmal, S.Si., MT";
           d:isDosen d:P46.
 d:dosen15  d:dosen "Dr. Intan Nurma Yulita, M.T.";
           d:isDosen d:P47, d:P56.
+d:dosen16 d:dosen "-";
+          d:isDosen d:P68, d:P69, d:P01, d:P02, d:P03, d:P04, d:P05, d:P09, d:P10, d:P11, d:P12, d:P13, d:P17,
+                    d:P19, d:P23, d:P24, d:P25, d:P28, d:P29, d:P35, d:P36, d:P37, d:P38, d:P39,
+                    d:P41, d:P42, d:P43, d:P48, d:P46, d:P50, d:P52, d:P53, d:P54, d:P57, d:P58,
+                    d:P59, d:P60, d:P61, d:P62, d:P63, d:P64, d:P65, d:P66, d:P67.
+                    
 
 #data
 d:P01       d:namaMatkul    "Agama" ;
@@ -298,5 +305,5 @@ d:P68       d:namaMatkul    "Seminar" ;
             d:deskripsi     "Tidak Ada Info";
             d:syaratAmbil   "-".
 d:P69       d:namaMatkul    "Tugas Akhir" ;
-            d:deskrips      "Tidak Ada Info";
+            d:deskripsi     "Tidak Ada Info";
             d:syaratAmbil   "-".

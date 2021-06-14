@@ -59,6 +59,7 @@
             <v-container>
               <h2 v-model="input">Keyword yang dicari</h2>
               <p> {{input}}</p>
+
             </v-container>
 
 
@@ -77,26 +78,12 @@
                 </v-col>
               </v-row>
               <v-row>
-                <v-col lg="3" v-if="showFilter">
-                  <p class="filter">Jenis Matkul</p>
+                <v-col lg="6" sm="12" v-if="showFilter">
+                  <p class="filter"> Cari Berdasarkan Kategori Matkul</p>
                   <v-autocomplete clearable small-chips dense outlined rounded :items="jenisMatkul" v-model="selected_jenisMatkul" item-text="name" item-value="name" @change="getMatkul(selected_jenisMatkul)">
                   </v-autocomplete>
                 </v-col>
-                <v-col lg="3" v-if="showFilter">
-                  <p class="filter">Semester</p>
-                  <v-autocomplete clearable small-chips dense outlined rounded :items="semester" v-model="selected_semester" item-text="name" item-value="name" @change="getMatkul(selected_semester)">
-                  </v-autocomplete>
-                </v-col>
-                <v-col lg="3" v-if="showFilter">
-                  <p class="filter">Jumlah sks</p>
-                  <v-autocomplete clearable small-chips dense outlined rounded :items="sks" v-model="selected_sks" item-text="name" item-value="name" @change="getMatkul(selected_sks)">
-                  </v-autocomplete>
-                </v-col>
-                <v-col lg="3" v-if="showFilter">
-                  <p class="filter">Praktikum</p>
-                  <v-autocomplete clearable small-chips dense outlined rounded :items="praktikum" v-model="selected_praktikum" item-text="name" item-value="name" @change="getMatkul(selected_praktikum)">
-                  </v-autocomplete>
-                </v-col>
+
               </v-row>
             </v-container>
 
@@ -124,21 +111,21 @@
                         Dosen Pengajar :
                       </v-card-title>
                       <v-card-subtitle>
-                        <h4 class="bg_dosen">{{item.dosenPengajar}}</h4>
+                        <h4 class="bg_dosen">{{item.Dosen}}</h4>
                       </v-card-subtitle>
                       <v-divider></v-divider>
                       <v-card-title>
                         Jumlah Sks:
                       </v-card-title>
                       <v-card-subtitle>
-                        <h4 class="bg_sks">{{item.jumlahSks}}</h4>
+                        <h4 class="bg_sks">{{item.Sks}}</h4>
                       </v-card-subtitle>
                       <v-divider></v-divider>
                       <v-card-title>
                         Semester:
                       </v-card-title>
                       <v-card-subtitle>
-                        <h4 class="bg_semester">{{item.semester}}</h4>
+                        <h4 class="bg_semester">{{item.Semester}}</h4>
                       </v-card-subtitle>
 
                       <v-card-actions>
@@ -165,21 +152,21 @@
                             Deskripsi
                           </v-card-title>
                           <v-card-text class="desc">
-                            {{item.deskripsi}}
+                            {{item.Desc}}
                           </v-card-text>
                           <v-divider></v-divider>
                           <v-card-title>
                             Praktikum
                           </v-card-title>
                           <v-card-text>
-                            <h4 class="bg_semester">{{item.keterangan}}</h4>
+                            <h4 class="bg_semester">{{item.Prak}}</h4>
                           </v-card-text>
                           <v-divider></v-divider>
                           <v-card-title>
                             Syarat Ambil
                           </v-card-title>
                           <v-card-text>
-                            <h4 class="bg_syarat">{{item.syaratAmbil}}</h4>
+                            <h4 class="bg_syarat">{{item.Syarat}}</h4>
                           </v-card-text>
 
                         </div>
@@ -318,67 +305,100 @@
 
       }],
       showFilter: false,
-      selected_sks: '',
-      sks: [{
-          name: "1 sks",
+      selected_jenisMatkul: '',
+      jenisMatkul: [{
+          header: 'Jenis Matkul'
         },
         {
-          name: "2 sks",
+          name: 'Wajib',
+          group: 'Group 1'
         },
         {
-          name: "3 sks",
+          name: 'Peminatan',
+          group: 'Group 1'
         },
         {
-          name: "7 sks"
+          divider: true
+        },
+        {
+          header: 'Semester'
+        },
+        {
+          name: 'Semester 1',
+          group: 'Group 2'
+        },
+        {
+          name: 'Semester 2',
+          group: 'Group 2'
+        },
+        {
+          name: 'Semester 3',
+          group: 'Group 2'
+        },
+        {
+          name: 'Semester 4',
+          group: 'Group 2'
+        },
+        {
+          name: 'Semester 5',
+          group: 'Group 2'
+        },
+        {
+          name: 'Semester 6',
+          group: 'Group 2'
+        },
+        {
+          name: 'Semester 7',
+          group: 'Group 2'
+        },
+        {
+          name: 'Semester 8',
+          group: 'Group 2'
+        },
+        {
+          divider: true
+        },
+        {
+          header: 'Jumlah Sks'
+        },
+        {
+          name: '1 sks',
+          group: 'Group 3'
+        },
+        {
+          name: '2 sks',
+          group: 'Group 3'
+        },
+        {
+          name: '3 sks',
+          group: 'Group 3'
+        },
+        {
+          name: '7 sks',
+          group: 'Group 3'
+        },
+        {
+          divider: true
+        },
+        {
+          header: 'Praktikum'
+        },
+        {
+          name: 'Memiliki Praktikum',
+          group: 'Group 4'
+        },
+        {
+          name: 'Tidak ada',
+          group: 'Group 4'
         },
 
       ],
-      selected_semester: '',
-      semester: [{
-          name: "Semester 1",
-        },
-        {
-          name: "Semester 2",
-        },
-        {
-          name: "Semester 3",
-        },
-        {
-          name: "Semester 4",
-        },
-        {
-          name: "Semester 5",
-        },
-        {
-          name: "Semester 6",
-        },
-        {
-          name: "Semester 7",
-        },
-        {
-          name: "Semester 8",
-        },
-      ],
-      selected_jenisMatkul: '',
-      jenisMatkul: [{
-          name: "Wajib"
-        },
-        {
-          name: "Peminatan"
-        },
-      ],
-      selected_praktikum: '',
-      praktikum: [{
-          name: "Memiliki Praktikum"
-        },
-        {
-          name: "Tidak ada"
-        },
-      ],
+
       listToShow: 6,
       loadList: false,
       input: '',
       matkul_data: [],
+      selected: null,
       query: '',
       sortType: '',
       sortedItem: '',
@@ -413,7 +433,7 @@
     },
     computed: {
       filteredList: function() {
-        return Object.values(this.matkul_data).slice(0, this.listToShow)
+        return Object.values(this.matkul_data).slice(0, this.listToShow);
       }
     }
   });

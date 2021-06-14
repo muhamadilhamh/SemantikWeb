@@ -1,18 +1,25 @@
 prefix p: <http://matakuliahTI.com>
 prefix d: <http://matakuliahTI.com/ns/data#>
 
-SELECT  ?Matkul ?jenisMatkul ?dosenPengajar ?jumlahSks ?semester ?deskripsi ?keterangan ?syaratAmbil
-WHERE
-    { 
-        ?s  d:namaMatkul ?Matkul ;
-            d:jenisMatkul ?jenisMatkul;
-            d:dosenPengajar ?dosenPengajar;
-            d:jumlahSks ?jumlahSks;
-            d:semester ?semester;
-            d:tentangMatkul ?lorem.
+    SELECT ?Matkul ?Syarat ?Prak ?Sks ?Semester ?jenisMatkul ?Dosen ?Desc
 
-        ?lorem  d:deskripsi     ?deskripsi;
-                d:keterangan    ?keterangan;
-                d:syaratAmbil   ?syaratAmbil;
-                  
-    }
+        WHERE
+        { 
+  			?x	d:namaMatkul ?Matkul;
+  				  d:deskripsi	?Desc;
+  				  d:syaratAmbil ?Syarat.
+  
+  			?p 	d:prak ?Prak;
+  			  	d:isPrak ?x.
+  
+  			?k 	d:sks ?Sks;
+  				  d:isSks ?x.
+  
+  			?s 	d:semester ?Semester;
+  			  	d:isSemester ?x.
+  
+ 			?t 	d:jenisMatkul ?jenisMatkul;
+  				d:isJenisMatkul ?x.
+  			
+  			?d  d:dosen ?Dosen;
+        		d:isDosen ?x.

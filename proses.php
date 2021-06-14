@@ -5,48 +5,66 @@ $data_received = json_decode(file_get_contents("php://input"));
 if ($data_received) {
   $test = $data_received->data;
   $data = sparql_get(
-    "http://localhost:3030/uasSemweb",
+    "http://localhost:3030/datasemantik",
     "
     prefix p: <http://matakuliahTI.com>
     prefix d: <http://matakuliahTI.com/ns/data#>
 
-    SELECT  ?Matkul ?jenisMatkul ?dosenPengajar ?jumlahSks ?semester ?deskripsi ?keterangan ?syaratAmbil
-    WHERE
-    { 
-        ?s  d:namaMatkul ?Matkul ;
-            d:jenisMatkul ?jenisMatkul;
-            d:dosenPengajar ?dosenPengajar;
-            d:jumlahSks ?jumlahSks;
-            d:semester ?semester;
-            d:tentangMatkul ?tentangMatkul.
+    SELECT ?Matkul ?Syarat ?Prak ?Sks ?Semester ?jenisMatkul ?Dosen ?Desc
 
-        ?tentangMatkul  d:deskripsi      ?deskripsi;
-                        d:keterangan    ?keterangan;
-                        d:syaratAmbil    ?syaratAmbil;
+        WHERE
+        { 
+  			?x	d:namaMatkul ?Matkul;
+  				  d:deskripsi	?Desc;
+  				  d:syaratAmbil ?Syarat.
+  
+  			?p 	d:prak ?Prak;
+  			  	d:isPrak ?x.
+  
+  			?k 	d:sks ?Sks;
+  				  d:isSks ?x.
+  
+  			?s 	d:semester ?Semester;
+  			  	d:isSemester ?x.
+  
+ 			?t 	d:jenisMatkul ?jenisMatkul;
+  				d:isJenisMatkul ?x.
+  			
+  			?d  d:dosen ?Dosen;
+        		d:isDosen ?x.
 
-             FILTER (regex(?jumlahSks, '$test') || regex(?Matkul, '$test','i') || regex(?jenisMatkul,  '$test','i') ||   regex(?dosenPengajar, '$test','i') || regex(?semester, '$test', 'i') || regex(?keterangan, '$test','i'))      
+      FILTER (regex(?Matkul, '$test', 'i') || regex(?Dosen, '$test','i') ||  regex(?Sks, '$test', 'i') || regex(?Semester, '$test','i') || regex(?jenisMatkul, '$test','i') || regex(?Prak, '$test','i'))      
     } "
   );
 } else {
   $data = sparql_get(
-    "http://localhost:3030/uasSemweb",
+    "http://localhost:3030/datasemantik",
     "
     prefix p: <http://matakuliahTI.com>
     prefix d: <http://matakuliahTI.com/ns/data#>
 
-    SELECT  ?Matkul ?jenisMatkul ?dosenPengajar ?jumlahSks ?semester ?deskripsi ?keterangan ?syaratAmbil ?tentangMatkul
-    WHERE
-    { 
-        ?s  d:namaMatkul ?Matkul ;
-            d:jenisMatkul ?jenisMatkul;
-            d:dosenPengajar ?dosenPengajar;
-            d:jumlahSks ?jumlahSks;
-            d:semester ?semester;
-            d:tentangMatkul ?tentangMatkul.
+    SELECT ?Matkul ?Syarat ?Prak ?Sks ?Semester ?jenisMatkul ?Dosen ?Desc
 
-        ?tentangMatkul  d:deskripsi      ?deskripsi;
-                        d:keterangan     ?keterangan;
-                        d:syaratAmbil    ?syaratAmbil;
+        WHERE
+        { 
+  			?x	d:namaMatkul ?Matkul;
+  				  d:deskripsi	?Desc;
+  				  d:syaratAmbil ?Syarat.
+  
+  			?p 	d:prak ?Prak;
+  			  	d:isPrak ?x.
+  
+  			?k 	d:sks ?Sks;
+  				  d:isSks ?x.
+  
+  			?s 	d:semester ?Semester;
+  			  	d:isSemester ?x.
+  
+ 			  ?t 	d:jenisMatkul ?jenisMatkul;
+  			  	d:isJenisMatkul ?x.
+  			
+  			?d  d:dosen ?Dosen;
+        		d:isDosen ?x.
                   
     }
           "
