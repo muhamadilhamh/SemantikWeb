@@ -63,33 +63,33 @@ d:prak2 d:prak "Tidak Ada";
 #Dosen
 d:dosen1  d:dosen "Drs. Ino Suryana, M.Kom";
           d:isDosen d:P06, d:P15.
-d:dosen1  d:dosen "Mira Suryani, S.Pd., M.Kom.";
+d:dosen2  d:dosen "Mira Suryani, S.Pd., M.Kom.";
           d:isDosen d:P07, d:P14, d:P30, d:P44.
-d:dosen1  d:dosen "Dr. Asep Sholahuddin, MT";
+d:dosen3  d:dosen "Dr. Asep Sholahuddin, MT";
           d:isDosen d:P08, d:P26.
-d:dosen1  d:dosen "Dr. Juli Rejito, M.Kom";
+d:dosen4  d:dosen "Dr. Juli Rejito, M.Kom";
           d:isDosen d:P16, d:P23.
-d:dosen1  d:dosen "Dr. Afrida Helen, MT.";
+d:dosen5  d:dosen "Dr. Afrida Helen, MT.";
           d:isDosen d:P18.
-d:dosen1  d:dosen "Akik Hidayat, DRs., M.Kom";
+d:dosen6  d:dosen "Akik Hidayat, DRs., M.Kom";
           d:isDosen d:P19.
-d:dosen1  d:dosen "Rudi Rosadi, S.Si., M.Kom";
+d:dosen7  d:dosen "Rudi Rosadi, S.Si., M.Kom";
           d:isDosen d:P20, d:P21, d:P45.
-d:dosen1  d:dosen "Erick Paulus, M.Kom.";
+d:dosen8  d:dosen "Erick Paulus, M.Kom.";
           d:isDosen d:P22.
-d:dosen1  d:dosen "Aditya Pradana, S.T., M.Eng.";
+d:dosen9  d:dosen "Aditya Pradana, S.T., M.Eng.";
           d:isDosen d:P27, d:P51.
-d:dosen1  d:dosen "Prof. Dr. Atje Setiawan A.,MS, M.Kom";
+d:dosen10  d:dosen "Prof. Dr. Atje Setiawan A.,MS, M.Kom";
           d:isDosen d:P28, d:P35.
-d:dosen1  d:dosen "Dr. Setiawan Hadi, M.Sc.CS.";
+d:dosen11  d:dosen "Dr. Setiawan Hadi, M.Sc.CS.";
           d:isDosen d:P31, d:P40.
-d:dosen1  d:dosen "Deni Setiana, S.SI., M.Cs";
+d:dosen12  d:dosen "Deni Setiana, S.SI., M.Cs";
           d:isDosen d:P32.
-d:dosen1  d:dosen "R. Sudrajat, Drs., M.Si";
+d:dosen13  d:dosen "R. Sudrajat, Drs., M.Si";
           d:isDosen d:P33, d:P34.
-d:dosen1  d:dosen "Akmal, S.Si., MT";
+d:dosen14  d:dosen "Akmal, S.Si., MT";
           d:isDosen d:P46.
-d:dosen1  d:dosen "Dr. Intan Nurma Yulita, M.T.";
+d:dosen15  d:dosen "Dr. Intan Nurma Yulita, M.T.";
           d:isDosen d:P47, d:P56.
 
 #data
