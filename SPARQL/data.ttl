@@ -63,208 +63,208 @@ d:prak2 d:prak "Tidak Ada";
 #data
 d:P01       d:namaMatkul    "Agama" ;
             d:deskripsi     "Tidak Ada Info";
-            d:syaratAmbil   "".
-d:P02       d:namaMatkul	"Pancasila" ;     
+            d:syaratAmbil   "-".
+d:P02       d:namaMatkul    "Pancasila" ;     
             d:deskripsi     "Tidak Ada Info";
-            d:syaratAmbil   "".
-d:P03       d:namaMatkul	"Bahasa Indonesia" ;
+            d:syaratAmbil   "-".
+d:P03       d:namaMatkul    "Bahasa Indonesia" ;
             d:deskripsi     "Mata kuliah ini membahas politik bahasa, ragam bahasa, dan Ejaan yang disempurnakan (EYD), bentukan kata dan diksi, kalimat dan paragraf dan karya ilmiah.";
-            d:syaratAmbil   "".
+            d:syaratAmbil   "-".
 d:P04       d:namaMatkul    "Olah Raga, Kebugaran dan Kreatifitas (OKK)" ;
             d:deskripsi     "Mata kuliah ini mendorong perkembangan kebugaran dan kreativitas mahasiswa dalam rangka menumbuhkan rasa kecintaan terhadap almamater dan mengembangkan karakter diri sebagai mahasiswa.";
-            d:syaratAmbil   "".
+            d:syaratAmbil   "-".
 d:P05       d:namaMatkul    "Kalkulus I" ;
             d:deskripsi     "Topik-topik yang akan dibahas pada kuliah ini meliputi: Fungsi, Grafik, Limit, Kalkulus diferensial, Pene-rapan turunan, Fungsi Transenden, Integral, Teknik pengintegralan, Aplikasi integral";
-            d:syaratAmbil   "".
+            d:syaratAmbil   "-".
 d:P06       d:namaMatkul    "Logika Informatika" ;
             d:deskripsi     "Mata kuliah ini membahas dasar-dasar logic programming dan aplikasinya dengan menggunakan Prolog. Topik-topik yang dibahas meliputi: Prolog programming, Horn clauses, resolution theorem proving, computing with predicate logic, constraint logic pro-gramming.";
-            d:syaratAmbil   "".
+            d:syaratAmbil   "-".
 d:P07       d:namaMatkul    "Algoritma & Pemrograman" ;
             d:deskripsi     "Mata kuliah ini membahas : pengenalan algoritma. bahasa pemrograman, struktur dan ciri-ciri program spesifikasi formal dari pada sintaks dan semantiks. Pemrosesan daftar/list, manipu-lasi string, deskripsi data, type-type data, opearsi, pernyataan type dan program terstruktur dengan penggunaan bahasa pemrograman";
-            d:syaratAmbil   "".
+            d:syaratAmbil   "-".
 d:P08       d:namaMatkul    "Pengantar Teknologi Komputer & Informatika" ;
             d:deskripsi     "Mata kuliah ini memperkenalkan teknologi informasi sebagai bagian dari upaya memanfaatkan informasi yang melandasi pengembangan kreativitas secara etis. Materi bahasan: Pengenalan terhadap sistem dan organisasi computer, perangkat keras dan lunak, jaringan komunikasi (termasuk internet), implikasi penggunaan teknologi informasi dalam berbagai aspek kehidupan manusia, kemampuan berpikir komputasional melalui dasar pemrograman prosedural dalam satu bahasa pemrograman yang dipilih.";
-            d:syaratAmbil   "".
+            d:syaratAmbil   "-".
 d:P09       d:namaMatkul    "Bahasa Inggris I" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Mata kuliah ini membahas dan melatih kemampuan membaca: menemukan gagasan utama, mengetahui makna kosa kata sesuai konteks, dan mendapatkan informasi eksplisit dan implisit; membahas dan melatih membuat pola kalimat dasar dan kalimat majemuk dalam Bahasa Inggris; dan membahas dan melatih membuat paragraf dengan sistematika tulisan akademik.";
+            d:syaratAmbil   "-".
 d:P10       d:namaMatkul    "Kewarganegaraan" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Tidak Ada Info";
+            d:syaratAmbil   "-".
 d:P11       d:namaMatkul    "Kalkulus II" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Topik-topik yang akan dibahas meliputi: Barisan dan deret tak hingga, Irisan kerucut, Sistem-sistem koordinat, Vektor dan geometri analitik ruang, Fungsi dengan dua atau tiga peubah, Turunan parsial, Turunan berarah, In-tegral lipat, Aplikasi integral lipat";
+            d:syaratAmbil   "Telah menyelesaikan matkul Kalkulus 1".
 d:P12       d:namaMatkul    "Fisika Informatika" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Mahasiswa diharapkan mampu menafsirkan dan menjelaskan pengertian fenomena, bagan, grafik dan lain-lain yang berhubungan dengan listrik-magnet, gelombang, optika dan pendahuluan Fisika Mod-ern. Topik yang akan dibahas meliputi: medan dan potensial listrik, kapasitor, dielektrik, rangkaian listrik arus searah, medan magnet, induksi magnetik, induktansi, rangkaian listrik arus bolak-balik, persamaan Maxwell, kemagnetan, sifat cahaya, polarisasi, interferensi., difraksi, optika geometri, fotometri, spektros-kopi, laser, holografi, model atom Bohr, sinar-X, radioaktivitas.";
+            d:syaratAmbil   "-".
 d:P13       d:namaMatkul    "Statistika" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Dalam kuliah ini akan diberikan dasar-dasar statistik yang dapat membantu peserta kuliah untuk menyimpulkan hasil interpretasi data dan mengambil keputusan. Topik-topik yang akan dibahas antara lain pendahuluan yang mencakup pengenalan beberapa elemen statistik; Interpretasi data; Konsep peluang: eksperimen acak, peubah acak, kejadian bebas, peluang bersyarat, teorema Bayes; Sebaran diskrit dan kontinyu; Sebaran sampling; Uji hipotesa statistik; Analisis varian; Regresi sederhana. Dalam perkuliahan paket program statistik akan dipergunakan sebagai pendukung.";
+            d:syaratAmbil   "-".
 d:P14       d:namaMatkul    "Struktur Data" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Tipe Data dan Abstract Data Type (ADT), Pemrograman Terstruktur (Fungsi / Prosedur). Algoritma dan bahasa C++,  Array, Record, Array of Record, Algoritma Sorting dan Searching dengan Array, Pengertian Pointer, Deklarasi Pointer to Integer dan Alokasi memori, Operasi Pada Pointer, Pointer to Record, Pengertian List berkait, Operasi Traversal List, Menambah di depan, dan belakang, Menghapus di depan dan  belakang.. Searching, Menambah di tengah, Menghapus di tengah, Operasi Traversal List, Menambah di depan, belakang dan tengah, Menghapus di depan, belakang dan tengah, Variasi List Berkepala, Variasi List Circular, Pengertian Tumpukan, Penyajian tumpukan dengan Array dan List, Operasi Push dan Pop, Pemakaian Tumpukan, Pengertian Antrian, Penyajian Antrian dengan Array dan List, Antrian berprioritas, Pengertian Multi List, Pengelolaan pegawai dengan multi List, Konsep Relasi, Istilah-istilah dalam pohon, Pohon Biner, Penyajian Pohon, Menambah data, Kunjungan InOrder, Kunjuungan PreOrder, Kunjungan PostOrder, Pohon Biner berbenang, Pohon dengan Array, Pengertian Sorting, Penyisipan langsung, Metoda Seleksi, merge Sort, Quick Sort, Pencaian berurutan, Pencarian biner, Pohon telusur.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Algoritma & Pemrograman".
 d:P15       d:namaMatkul    "Arsitektur & Organisasi Komputer" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini berisi pembahasan rinci komponen utama sistem komputer: prosesor, memory dan masukan/ keluaran. Sebagai patokan diadakan studi perbandingan sistem yang telah mapan. Penekanan ditujukan pada analisa dan teknik peningkatan kinerja (performance) dari sistem komputer. Topik-topik yang akan dibahas meliputi pengantar rancangan komputer; perspektif historis; Komponen dari sistem komputer, organisasi dasar mesin komputer; Kinerja dan biaya, pilihan dalam rancangan; Realisasi organisasi sistem komputer: RISC; Implementasi dan analisa perangkat instruksi pada contoh-contoh organisasi sistem komputer yang diberikan; Rancangan prosesor: data path dan unit pengendali prosesor, micro program-ming dan hardwired control; Rancangan memory: Cache memory; Pipelining; Masukan / Keluaran (I/O). Superscalar architecture and their ad-vantages; branch prediction and its utility; the costs and benefits of prefetching; multithreading; the rel-evance of scalability to performance; Architecture for networks and distrib-uted systems; Impact of architectural issues on distributed algorithms; par-allel architectures.";
+            d:syaratAmbil   "-".
 d:P16       d:namaMatkul    "Sistem Database I" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahas konsep dasar dari manajemen basis data yang menyangkut aspek pemodelan dan perancangan, bahasa dan fasilitas, implementasi dan penggunaan suatu basis data. Topik-topik yang akan dibahas: Arsitektur dan konsep dari sistem manajemen basis data (SMBD); Penyimpanan dan organisasi berkas; Indexing; Data modeling mengguna-kan model entity-relationship; Data modeling menggunakan model relasional; Bahasa query formal; Aljabar relasional; Kalkulus relasional; SQL dan QBE; Functional dependencies, dan normalisasi untuk basis data relasional; Algoritma dan proses desain basis data relasional; Pemrosesan dan optimisasi query; Transaksi, concurrency control; recov-ery, security; Basis data Client-Server";
+            d:syaratAmbil   "-".
 d:P17       d:namaMatkul    "Aljabar Linier" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Topik-topik yang akan dibahas meliputi Sistem persamaan linier dan matriks; Determinan; Ruang vektor; Ruang hasil kali dalam; Nilai eigen dan vektor eigen; Transformasi linier; Ruang vektor kompleks.";
+            d:syaratAmbil   "-".
 d:P18       d:namaMatkul    "Metode Numerik" ;         
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Persoalan numerik dan teori kesalahan: Interpolasi Lagrange, Newton, kesalahan interplasi, titik interpolasi berjarak sama, splines dan aproksimasi. Penyelesaian sistem linier dengan dekomposisi LU, 25 perhitungan jumlah operasi. Penyelesai-an persmaan non linier: Bisection, new-ton, Regula falsi, Titik tetep, perhitungan kesalahan. Pengintegralan dan pendi-ferensialan numerik.";
+            d:syaratAmbil   "-".
 d:P19       d:namaMatkul    "Matematika Diskrit" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Topik-topik yang akan dibahas meliputi: Logika proposisi, Logika predikat, Teori himpunan, Fungsi, Barisan, Deret, Pertumbuhan fungsi, Algoritma, Kompleksitas algoritma, Teori bilangan, Metode pembuktian, Induksi Matematik, Prinsip kandang burung, Permutasi, Kombinasi., Relasi beserta sifat-sifat dan aplikasinya, Penutup relasi, Relasi ekivalen, Terurut parsial, Terurut total, Relasi rekurensi, fungsi Pembangkit, Graf, Isomorfisma graf, Keterhubungan graf, Komponen, Lintasan, Sirkuit, Lintasan dan Sirkuit Euler, Lintas dan Sirkuit Hamilton, Lintasan Terpendek, Graf Planar, Pewarnaan graf, Pohon, Hutan, Pohon perentang, Pohon perentang minimum, cut set";
+            d:syaratAmbil   "-".
 d:P20       d:namaMatkul    "Sistem Operasi" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Dalam kuliah ini akan dibahas organisasi, struktur dan konsep-konsep dari sistem pengoperasian komputer. Topik-topik yang akan dibahas meliputi Pendahuluan: sejarah, konsep dasar, dan struktur; Proses: model, inter-process communi-cation, schedulling; Memory Manage-ment: swapping, virtual memory, page replacement, paging, working set model, segmentation; File System: file and directory, implementation, security, protection; Input/Output; Dead-lock; Distributed Systems";
+            d:syaratAmbil   "-".
 d:P21       d:namaMatkul    "Pemrograman Web" ;             
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahasa tentang pengenalan konsep internet dan pengertian multimedia, HTML, Page generator tool, client-side-script (VBScript), JavaScript), server-side-script (Perl, PHP, ASP, CFML), Pengaksesan basisdata pada web, applet dalam bahasa java";
+            d:syaratAmbil   "Telah menyelesaikan matkul Struktur Data".
 d:P22       d:namaMatkul    "Pemrograman Berorientasi Objek" ;           
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Genealogy of object oriented languages: structured programming, procedural programming. Abstract data types, encapsulation, Typed and untyped languages, Coupling and cohesion, Classes and objects. Class members: Data members (fields) and member functions (methods). Class member visibility (private, public, protected). Class variables and instance variables, class methods and instance methods. Service methods and support methods. Class hierarchies. Single and multiple inheritance, Inter-class relationships, Constructors and destructors. Object initialization, memory management. Garbage collection. Methods and messages. Method signatures. Method and operator overloading. Method overriding. Abstract classes. Dynamic (late) binding. Polymorphism, Software reuse. Subclasses (derived classes), Super classes (base classes). Invocation of superclass, methods and constructors. Objects vs. variables. Classes vs. types. Delegation Collection classes. Class libraries, Unified Modelling Language (UML). Use case diagrams: actors, system boundary, <<uses>> and <<extends>>. Scenarios. Class diagrams: associations, aggregation,dependency, and inheritance. Object interaction diagrams, object state transition diagrams. Object constraint language(OCL): invariants, preconditions, post conditions. Design patterns. Pattern documentation: motivation, prerequisites, structure, participants and consequences. Examples of patterns: Adapter, Decorator, Iterator, Observer, Singleton, Iterative and incremental development styles Design of class hierarchies, refactoring Implemen-tation of designs in an object oriented programming language, Testing object oriented code. Class testing, constructing class tests from OCL or state transition diagrams, test driver construction. Testing interactions and class hierarchy";
+            d:syaratAmbil   "Telah menyelesaikan matkul Struktur Data".
 d:P23       d:namaMatkul    "Sistem Database II" ;           
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Pendahuluan active database,  store procedure trigger, temporal database, pemanfaatan query optimization, heuristic optimization, cost based optimization, database terdistribusi, storing dan query  database terdistribusi, concurrency control, recovery database terdistribusi, mirroring, replication, konfigurasi replication, mirroring vs replication database, keamanan database, user priveladge, manajemen user, backup, migrasi sharing database, konstruksi objek dalam ordbms, indentity objek, metoda penyimpanan dan akses, query processing, data warehouse, Online analytical processing (OLAP), OLAP query, database design untuk OLAP, pengenalan data mining, cloud database, virtual machine image, database sebagai sebuah layanan";
+            d:syaratAmbil   "Telah menyelesaikan matkul Sistem Database 1".
 d:P24       d:namaMatkul    "Bahasa Inggris II" ;          
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Mahasiswa diharapkan mampu untuk menganalisa suatu wacana (teks) dengan menyebutkan gagasan utamanya dan gagasan pendukung-nya, dan mampu menulis Laporan Teknis (report writing) dengan mempergunakan bahasa Inggris yang baik dan benar. Topik yang akan dibahas meliputi: Reading strategies, Basic writing techniques, Latihan yang berupa developing an effective style, planning and organizing essay, out-lining and diagramming, paragraph analysis and referencing skills";
+            d:syaratAmbil   "-".
 d:P25       d:namaMatkul    "Operasional Riset" ;         
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Mata kuliah ini membahas konsep dasar riset operasi, metode riset operasi, serta teknik dan analisis yang diperlukan untuk pengambilan keputusan dengan meng-gunakan metode-metode kuantitatif.";
+            d:syaratAmbil   "-".
 d:P26       d:namaMatkul    "Artificial Intelligence" ;         
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Penjelasan matakuliah kecerdasan buatan (KB), Jenis-jenis KB, Perkembangan KB, Kalkulus predikat, jaringan semantik, Frame, Script, Searching dengan Bread First Search (BFS), Searching dengan Depth First Search (DFS), Heuristic search, Konsep IF THEN pada sistem pakar, Struktur pohon, Teori Ketidak pastian, Software EXSYS, Teknik Pembuatan s/w, Sistem Pakar, Aplikasi software sistem pakar, Gambaran umum neural network, Neuron dan Fungsi aktivasi, Algoritma packpropagation, Software Matlab pada Neural Network, Solusi  NN dengan Matlab, Gambaran umum tentang fuzzy logic, Himpunan Fuzzy, Metode-metode pada Fuzzy, Software Matlab pada Fuzzy Logic, Solusi Fuzzy dengan Matlab, Struktur Umum  algoritma genetika, Komponen-komponen Utama pada algoritma genetika, Seleksi pada algoritma genetika, Rekombinasi, Mutasi dan Algoritma Genetika sederhana";
+            d:syaratAmbil   "-".
 d:P27       d:namaMatkul    "Jaringan Komputer" ;          
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Pengenalan model referensi ISO-OSI untuk perancangan ketiga lapisan terbawah jaringan komputer: physical layer, data link layer, network layer. Topik- topik yang akan dibahas meliputi: Arsitektur jaringan dan protokol hirarkis; Referensi model OSI dan model pelayanan; Contoh realisasi jaringan komputer; Lapisan fisik: prinsip dasar komunikasi data dan media transmisi, transmisi ana-log dan dijital, data encoding, multi-plexing dan polling; Lapisan data link: konfigurasi dan manajemen link, deteksi dan koreksi kesalahan; Pengaturan flow data link: protokol stop/wait dan sliding window; Jaringan radio dan satelit; Lapisan Jaringan: algoritma routing, X.25, dan internetworking; Jaringan lokal: teknologi dan topologi jaringan, Ethernet dan bakuan IEEE 802.3, To-ken Ring dan bakuan IEEE 802.4.";
+            d:syaratAmbil   "-".
 d:P28       d:namaMatkul    "Sistem Informasi" ;         
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Tujuan mata kuliah ini adalah untuk mengetahui bagaimana mengelola divisi sistem informasi/teknologi informasi di sebuah organisasi. Topik mencakup: perencanaan sistem informasi, manajemen pengembangan sistem, manajemen pemeliharaan, manajemen implementasi, help desk, user support service, operasi data cen-tre, manajemen infrastruktur, manajemen inventori, kontrol dan evaluasi sistem informasi, akuisisi dan procurement sumber daya sistem informasi, manajemen personalia sistem informasi, end-user computing.";
+            d:syaratAmbil   "-".
 d:P29       d:namaMatkul    "Kecakapan Antar Personal" ;         
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahas kecakapan per-sonal dan antar personal yang di-butuhkan dari seorang sarjana komputer/teknologi informasi dalam bekerja di bidangnya. Kecakapan yang dibahas didasarkan atas ukuran organisasi dan jenis organisasi itu. Topik-topik yang dibahas antara lain, cara mengatur tugas personal, cara bekerja sendiri, cara mendengar, cara bekerja secara efektif, cara mem-presentasikan laporan kerja, cara menulis, cara melatih orang lain (bawahan), dll.";
+            d:syaratAmbil   "-".
 d:P30       d:namaMatkul    "Analisis Algoritma" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahas beberapa metode perancangan algoritma untuk menyelesaikan masalah-masalah seperti metode iterative, divide and conquer, dynamic programming, greedy, backtracking, branch and bound. Pembahasan setiap algoritma disertai dengan dua aspek yang terpenting yaitu correctness dan com-plexity. Topik-topik yang akan dibahas meliputi Mesin Turing; struktur data dasar: priority queue, heap, linked lists; Notasi big Oh, big theta, big omega, recursion, Master's Theorem; Algoritma-algoritma sorting: insertionSort, selectionSort, Bose-Nelson Sort, HeapSort, QuickSort, MergeSort, RadixSort, CountingSort, order statistik; Dynamic programming: matrix chain multiplication, LCS; Algoritma-algoritma Greedy: Knap-sack problem, TSP, Huffman codes; Algoritma-algoritma pada graphs: BFS, DFS, connectivity, MST, shortest path, topological sort, maximum flow; Operasi-operasi pada matriks; Com-putational geometry; NP-complete-ness, approximation algorithms.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Struktur Data".
 d:P31       d:namaMatkul    "Etika Profesi" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Pembahasan Manusia sebagai Makhluk Pribadi yang Multi Dimen-sional menurut Filsafat Manusia, meliputi Ciri-ciri dasar manusia (yang membedakannya dengan binatang), dan bagaimana memahami sikap dan prilaku manusia, Pembahasan berbagai Teori tentang Sikap dan Prilaku Manusia (Teori Plato, Teori Psiko-Analisis Sigmund Freud, Teori Perangai C.G Jung, Teori Motivasi Prof. Abraham Maslow), Teori Sosiologi dan Filsafat Wayang, Pembahasan Teori Eksistensi Manusia, Kepri-badian (Aktualisasi Diri), Manusia Sebagai Makhluk Berbahasa/ Berkomunikasi (Etika Komunikasi), Manusia Sebagai Makhluk Berbudaya (Etika Umum dan Sopan Santun), dan manusia Sebagai makhluk Bekerja (Etika Profesi Atau Etos Kerja), Pembahasan Manusia Sebagai Makhluk Sosial, Proses Sosialisasi Manusia, Keluarga Sebagai Media Proses Sosialisasi, Teori-teori Hubungan Sesama Manusia, Bentuk-bentuk hubungan timbale Balik Antara manusia, dan Bagaimana MenghindarkanKonflik Antar Manusia, Pembahasan Konsep (Citra) Manusia Ideal Sejak Zaman Yunani, Romawi, Zaman Pertengahan di Eropa, Zaman Humanisme, dan Konsep Manusia Indonesia Yang Sempurna (Seutuhnya) yaitu Manusia Pancasila, Manusia Indonesia Seutuhnya, Manusia Berakhlak Mulia, manusia Berbudi Luhur.";
+            d:syaratAmbil   "-".
 d:P32       d:namaMatkul    "Telematika" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Konsep Dasar Ilmu dan Teknologi Informasi; Dasar Sistem Representasi Bilangan; Grafika Komputer dan Informasi Visual; Kompresi Data; Band-width dan Konsep Informasi; Transmisi Data dan Teknologi Penyimpanan Data; Konsep dan Jaringan Komputer; Dampak Teknologi Informasi dan Perkembangannya.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Jaringan Komputer".
 d:P33       d:namaMatkul    "Enterpreneurship" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini bertujuan untuk memberikan bekal kepada mahasiswa mengenai pengaturan dan cara pemasaran produk, khususnya produk IT. Selain itu, kuliah ini juga diharapkan mampu memupuk jiwa kewirausahaan mahasiswa. Manajemen Pemasaran mencakup: konsep dasar pemasaran yang efisien dan efektif, dengan studi kasus pemasaran produk-produk IT. Kewirausahaan mencakup: untuk menumbuhkan minat wirausaha dengan memberikan pengetahuan dan ketrampilan dalam memulai usaha baru";
+            d:syaratAmbil   "-".
 d:P34       d:namaMatkul    "Rekayasa Perangkat Lunak" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Pembahasan mengacu pada siklus pengembangan perangkat lunak yang terdiri atas tahapan perencanaan, analisa, perancangan, pembuatan program, pengujian dan pemeliharaan. Bentuk perkuliahan dipadukan dengan proyek semester yang sederhana (proyek yang lebih ekstensif akan diberikan pada mata kuliah Proyek perangkat Lunak). Setiap kelompok peserta diharuskan membangun sebuah perangkat lunak, yang telah didefinisikan pada awal semester. Materi yang akan diberikan meliputi Metodologi pengembangan perangkat lunak; Computer aided soft-ware engineering (CASE) tools; UML; Perencanaan proyek pengembangan perangkat lunak; Analisis permasalahan dan kebutuhan pemakai; Penyusunan spesifikasi perangkat lunak; Prinsip dasar perancangan perangkat lunak; Teknik perancangan berorientasikan pada proses, data, obyek; Permasalahan dalam penulisan program; Software quality assurance; Ukuran mutu perangkat lunak; Pengujian perangkat lunak; Pemeliharaan perangkat lunak.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Sistem Informasi".
 d:P35       d:namaMatkul    "Metodologi Penelitian" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini bertujuan untuk mem-perkenalkan konsep-konsep dalam melakukan penelitian, terutama pada penelitian sosial, yang mencakup pembuatan rancangan penelitian, perumusan masalah, jenis data, metode pengukuran, teknik penggalian infor-masi/elisitasi, cara melakukan sam-pling, teknik uji coba, teknik pembuatan kuesioner, probabilitas, teknik-teknik penelitian kualitatif & kuantitatif yang mencakup survey, polling, focus group discussion, metode delphi, wawancara mendalam, juga aneka teknik pengolahan data, etika dalam penelitian, dsb. Penekanan akan diberikan pada pentingnya teori dan metodologi dalam penelitian sistem informasi, misalnya dalam bidang interaksi manusia komputer, e-com-merce, ekonomi informasi, manajemen/ perencanaan sistem informasi, audit sistem informasi, proses requirement dalam software engineering, dsb.";
+            d:syaratAmbil   "-".
 d:P36       d:namaMatkul    "Pemodelan dan Simulasi" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahas teknik-teknik simulasi dan pemodelan suatu sistem dengan menggunakan komputer. Aspek-aspek simulasi dan pemodelan baik untuk sistem-sistem yang sinambung maupun yang diskrit akan ditinjau mulai dari landasan teoritisnya sampai dengan penerapan-nya. Topik-topik yang akan dibahas meliputi Pendahuluan: prinsip-prinsip simulasi dan pemodelan  berbasis komputer, karakteristik proses simulasi dan pemodelan berbasis komputer, keterbatasan simulasi dan pemodelan berbasis komputer; Sistem, Model, dan Validasi Model: pendekatan berorientasi sistem, metodologi pemodelan, teknik-teknik validasi model; Probabilitas, Statistika, dan Bilangan acak: sebaran dan jenis-jenis sebaran, teori antrian; Simulasi sistem diskrit: konsep peristiwa, keadaan dan proses, strategi simulasi; Lingkungan pemrograman: awesime; Studi kasus.";
+            d:syaratAmbil   "-".
 d:P37       d:namaMatkul    "Analisis Numerik" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini memperkenalkan metoda-metoda numerik untuk penyelesaian persoalan yang diformulasikan dalam bentuk model matematika. Topik-topik yang akan dibahas meliputi: Peranan metoda numerik dalam fenomena alam dan industri; Bahasa Pemrograman For-tran-77; Perhitungan dengan sistem titik ambang; Pendekatan fungsi dengan polinom Lagrange, Power, dan Newton; Solusi sistem persamaan linier: eliminasi Gauss, strategi pivot, faktorisasi segitiga; Solusi persamaan tidak linier; Solusi sistem persamaan tidak linier; Pendekatan turunan dan integral; Solusi persamaan diferensial biasa: Taylor, Euler, Runge-Kutta, Prediktor korektor. Mahasiswa diharapkan mampu meng-implementasikan metoda-metoda tersebut dalam program, dan mampu memecahkan persoalan yang diberikan baik memakai program karyanya maupun memakai paket standar";
+            d:syaratAmbil   "-".
 d:P38       d:namaMatkul    "Decision Support Systems" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahas teknologi untuk mengembangkan aplikasi sistem penunjang keputusan (SPK), dimana pengambilan keputusan tidak hanya ditunjang oleh intuisi dari pimpinan melainkan juga ditunjang oleh hasil analisis dari kumpulan data-data yang ada. Topik-topik yang akan dibahas meliputi: Pembahasan teori-teori pengambilan keputusan (decision theory) dan operations research, yang bermanfaat bagi manajemen untuk membantu mengambil keputusan. Kemudian dilanjutkan dengan pem-bahasan konsep SPK, karakterisitik, komponen dan arsitektur SPK. Selanjutnya dibahas bagaimana mem-bangun suatu SPK. Kemudian dibahas topik-topik khusus pada SPK seperti: Sistem Penunjang Keputusan Ber-kelompok dan Data Warehouse.";
+            d:syaratAmbil   "-".
 d:P39       d:namaMatkul    "Kriptografi" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Dasar-dasar kriptografi meliputi: block ciphers and DES (Data Encryp-tion Standard), AES (Advanced En-cryption Standard), public-key cryptosystems, key management, digital signatures, authentication proto-cols. Aplikasi kriptografi untuk berbagai aspek information security";
+            d:syaratAmbil   "-".
 d:P40       d:namaMatkul    "Grafika Komputer" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Topik-topik yang akan dibahas: Pengantar grafika komputer; Primitif keluaran: algoritma dan metoda pembuatan primitif; Transformasi; Windowing dan Clipping; Kurva: Bezier, B-spline; Realism: Hidden line elimination, hidden surface removal, model Illuminasi, Gouroud Shading, Phong Shading, dithering, fractal ob-jects, model-model warna; Geometric Modeling; Ray Tracing; Pengantar Antarmuka Grafika.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Aljabar Linier".
 d:P41       d:namaMatkul    "Robotika" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Introduction to robotics, Robot vehicles and base, Mechanical articulations: arms, wrist and effector, Power transmission: gear, belt and bearing, Actuators: pneumatic, hydraulic and electronic, Internal and external sensors, Control, algorithm and application programming, Kinematics, Material, applications and safety.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Artificial Intelligence".
 d:P42       d:namaMatkul    "Sistem Keamanan Jaringan" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahs mengenai keamanan komputer. Topik yang dibahas mencakup antara lain: manajemen keamanan: aset informasi, kebijakan, prosedur, manajemen resiko; model & tingkat keamanan pada: jaringan, peralatan, aplikasi, sistem operasi; kontrol akses, keamanan dalam pengembangan aplikasi; keamanan operasional; keamanan fisik; keamanan internet, jaringan dan telekomunikasi; disaster recovery plan dan business continu-ity plan; kejahatan komputer, investigasi kejahatan komputer.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Jaringan Komputer".
 d:P43       d:namaMatkul    "Sistem Terdistribusi" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Pengenalan model referensi ISO-OSI untuk perancangan keempat lapisan teratas: transport, sesi,39 presentasi, dan aplikasi. Topik-topik yang akan dibahas meliputi Lapisan Transport: aspek-aspek perancangan, pengaturan hubungan; Lapisan Sesi: aspek-aspek perancangan, Remote Procedure Call; Lapisan Presentasi: aspek-aspek perancangan, teknik kompresi data, kriptografi; Lapisan Aplikasi: aspek-aspek perancangan, pemindahan berkas, akses, dan manajemen, surat elektronik, terminal virtual, aplikasi lainnya; Bakuan-bakuan lainnya: SNA, TCP/IP; Sistem Terdistribusi: arsitektur, perangkat-lunak, sistem komunikasi, dan aplikasi.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Sistem Operasi".
 d:P44       d:namaMatkul    "Interaksi Manusia & Komputer" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah membahas interaksi manusia dengan komputer dari berbagai sudut pandang antara lain: Interaksi manusia dengan komputer-historis, intelektual dan sosial. Membangun system interaksi, termasuk disain, metode evaluasi, dan alat-alat pengembangan. Pengalaman interaksi, melalui berbagai alat sensor termasuk pandangan, sentuhan, gerak tubuh, pembicaraan, dan bahasa, Teori-teori pemrosesan informasi dari manusia dengan computer dan masalah adaptasi";
+            d:syaratAmbil   "-".
 d:P45       d:namaMatkul    "Teori Bahasa & Automata" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Dalam kuliah ini akan dibicarakan keempat tipe grammar dan mesin-mesin untuk mengenal masing-masing grammar. Kuliah ini juga mencakup masalah-masalah komplek-sitas komputasi, termasuk persoalan NP dan P. Topik-topik yang akan dibahas meliputi Automata berhingga (NFA dan DFA); Ekspresi regular; Himpunan regular dan sifat-sifatnya; Minimisasi automata berhingga; De-cision problems untuk bahasa regular; Context-free grammars dan bentuk-bentuk normal; Pushdown automata; Bahasa context-free dan sifat-sifatnya; Decision problems untuk bahasa con-text free; Mesin Turing standar dan modifikasi-nya; Bahasa context-sensi-tive; Undecidability";
+            d:syaratAmbil   "-".
 d:P46       d:namaMatkul    "Proyek Perangkat Lunak I" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Tidak Ada Info";
+            d:syaratAmbil   "-".
 d:P47       d:namaMatkul    "Data Warehouse" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Mata kuliah ini mengajarkan tentang teori dan implementasi dari data ware-house yang mencakup arsitektur data warehouse, data marts, view material-ization, online analytical processing (OLAP) dan extraction-transforma-tion-loading (ETL). Dalam kuliah ini juga membahas tentang data ware-house ETL toolkit meliputi teknik praktis untuk extracting, cleaning, transforming dan delivering data, data warehouse environment (building the data warehouse).";
+            d:syaratAmbil   "Telah menyelesaikan matkul Sistem Database 2".
 d:P48       d:namaMatkul    "Persamaan Differensial" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Definisi turunan fungsi, teorema dasar turunan fungsi, turunan fungsi eksponensial, Turunan fungsi trigonometri, aturan rantai, turunan fungsi logaritma. Pengertian persamaan diferensial (PD), solusi PD, konsep dasar PD, definisi PD, penyelesaian/solusi PD, penyelesaian PD orde satu, PD yang dapat dipisah, PD Homogen, PD linenar orde satu, Faktor Integrasi, PD tak linear orde satu, PD Bernoulli, PD 34 eksak, penyelesaian model matematika yang berbentuk Persamaan Diferensial orde satu, laju pertumbuhan, laju peluruhan, perubahan suhu, mekanika klasik, penyelesaian Persamaan Diferensial orde dua, kebebasan Linear, PD homogen linear orde dua, PD homogen linear orde dua dengan koefisien konstan, Reduksi Orde, PD linear tak homogen, Metode koefisien tak tentu, Metode variasi parameter, penyelesaian model matematika yang berbentuk PD orde dua, Forced Osilator dan Resonansi";
+            d:syaratAmbil   "-".
 d:P49       d:namaMatkul    "Optimization Problems" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Pendahuluan: sejarah perkembangan, rekayasa aplikasi dari optimasi, desain perumusan masalah sebagai permasalahan pemrograman yang matematis, klasifikasi permasalahan optimisasi. Programming Linier : metode grafis, metoda simplex, revisi metoda simplex, dualitas dalam pemrograman linier (LP), analisa sensitivitas, algoritma lain untuk memecahkan LP. Permasalahan, transportasi, penugasan aplikasi lain. Non Non Linear Programming: Teknik optimisasi unconstrained, metoda pencarian langsung, metoda pendaratan, optimisasi dibatasi, metoda langsung dan tidak langsung, optimisasi dengan kalkulus, syarat-syarat Khun-Tucker. Programming Dinamis: pendahuluan, optimisasi percontohan, prosedur komputa-sional, dimensionality, aplikasi dan rekayasa struktural. Teknik optimasi lanjut: pendahuluan, algoritma genetik untuk optimisasi dan pencarian";
+            d:syaratAmbil   "-".
 d:P50       d:namaMatkul    "Sistem Informasi Multimedia" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Topik-topik yang dibahas meliputi: Sound and audio, image and graph-ics, animation and video. Multimedia standards (audio, music, graphics, image, telephony, video, TV); Capac-ity planning and performance issues; Input and output devices (scanners, digital camera, touch-screens, voice-ac-tivated); MIDI keyboards, synthesizers; Storage standards (Magneto Optical disk, CD-ROM, DVD); Multimedia serv-ers and file systems; Tools to support multimedia development.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Sistem Informasi".
 d:P51       d:namaMatkul    "Semantik Web" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Pengenalan semantic web, perbandingan web vs semantic web, Web 1.0, web 2.0, web 3.0, ilustrasi dan contoh sederhana, RDF (Resource Description Framework), Simple triple semantic, graphic representation of triples, N-Triples, N3, RDF/XML, RDF Query Engines, SPARQL, Ontology OWL(Web Ontology Language), Counting, set, restriction in OWL, Tool, Engine, API for Programming:  Protege Ontology Editor, Protege OWL, OWL Jena API, semantic org API, Description Logic : Web rule & Inference, DL reasoning, Social Networking and Semantic: Modeling social network data, ontological representation of social individuals, Study case & Application Demo : Problem example and application, student cases & presentations";
+            d:syaratAmbil   "Telah menyelesaikan matkul Pemrograman Web".
 d:P52       d:namaMatkul    "Pengolahan dan Analisis Citra Digital" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Image sampling and quantization, color, point operations, segmentation, morphological image processing, linear image filtering and correlation, image transforms, eigenimages, multiresolution image processing, noise reduction and restoration, feature extraction and recognition tasks, image registration. Emphasis is on the general principles of image processing. Implementing and investigating image processing algorithms.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Grafika Komputer".
 d:P53       d:namaMatkul    "Soft Computing" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Introduction, Fundamental concept, Evolution of Neural Networks, Basic Models of Artificial Neural Networks, Important Terminologies of ANNs, McCulloch-Pitts Neuron, Linear Separability, Hebb Network. Supervised Learning Network: Perceptron Networks, Adaline, Multiple Adaptive Linear Neurons, Back-Propagation Network, Radial Basis Function Network. Associative Memory Networks: Training Algorithms for Pattern Association, Autoassociative Memory Network, Heteroassociative Memory Network, Bidirectional Associative Memory, Hopfield Networks, Iterative Autoassociative Memory Networks, Temporal Associative Memory Network. Unsupervised Learning Networks: Fixed weight Competitive Nets, Kohonen Self-Organizing Feature Maps, Learning Vector Quantization, Counter propagation Networks, Adaptive Resonance Theory Networks, Special Networks. Introduction to Classical Sets and Fuzzy sets, Classical Relations and Fuzzy Relations, Tolerance and Equivalence Relations, Noninteractive Fuzzy sets, Membership Functions: Fuzzification, Methods of Membership Value Assignments, Defuzzification, Lambda-Cuts for Fuzzy sets and Fuzzy Relations, Defuzzification Methods. Fuzzy Arithmetic and Fuzzy Measures: Fuzzy Rule Base and Approximate Reasoning: Truth values and Tables in Fuzzy logic, Fuzzy Propositions, Formation of Rules, Decomposition and Aggregation of rules, Fuzzy Reasoning, Fuzzy Inference Systems (FIS), Fuzzy Decision Making, Fuzzy Logic Control Systems. Introduction Genetic Algorithm, Basic Operators and Terminologies in GAs, Traditional Algorithm vs. Genetic Algorithm, Simple GA, General Genetic Algorithm, The Scheme Theorem, Classification of Genetic Algorithm, Holland Classifier Systems, Genetic Programming. Applications of Soft Computing: A Fusion Approach of Multispectral Images with SAR Image for Flood Area Analysis, Optimization of Travelling Salesman Problem using Genetic Algorithm Approach, Genetic Algorithm based Internet Search Technique, Soft Computing based Hybrid Fuzzy Controllers, Soft Computing based Rocket Engine, Control.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Robotika".
 d:P54       d:namaMatkul    "Manajemen Jaringan" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Topik dalam mata kuliah ini membahas tentang interaksi Client-server; socket interface; Domain Name Systems; e-mail representation dan transfer; file transfer dan remote file access; security dan aspek legalitas dari manajemen jaringan, web-servers dan teknologinya; CGI dan Java teknologi";
+            d:syaratAmbil   "Telah menyelesaikan matkul Jaringan Komputer".
 d:P55       d:namaMatkul    "Mobile Computing" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahas tentang wireless networking (keuntungan dan kerugian), karakteristik pancaran radio (fading dan multipath), pengenalan transmisi digital : bit-rate dan singnaling rate, transmisi synchronous, pulse shaping, line coding, perhitungan bit-error probabilitas. Kuliah ini juga membahas tentang narrowband digital modulation (binary dan multilevel), amplitude-shift keying (ASK), frequency shift keying (FSK), phase shift keying (PSK), wideband modulation techniques meliputi direct sequence spread spec-trum adaptive equalization orthogonal frequency division multiplex , MAC (Me-dium Access Control) untuk digital cel-lular system seperti GSM, protocol wire-less LANs seperti IEEE 802.11 dan HIPERLAN I dan II, hidden dan expose terminal, Collision Avoidance (RTS-CTS) protocols, serta protocol supporting mobility (mobile network layer pro-tocols/mobile-IP, DHCP, mobile trans-port layer protocols /mobile-TCP dan WAP).";
+            d:syaratAmbil   "-".
 d:P56       d:namaMatkul    "Data Mining" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Topik pada data mining meliputi: data mining; demands, potential and ma-jor issues, teknik dalam data mining seperti klasifikasi, generalisasi, kesimpulan dan karakterisasi. Dalam kuliah ini juga dibahas tentang menemukan dan menganalisis pat-tern, trends and deviations, pemahaman data mining dalam sistem database lanjut maupun khusus, serta membahas tentang berbagai model-model data mining (decision trees, genetic algorithms, neural net, dll), data mining process (data preparation, defining a study, data cleaning, prediction, enabling data mining through data warehouse). Integrasi data mining tools dalam sys-tem database, distributed heteroge-neous database systems, aplikasi-aplikasi data mining dan isu-isu riset dalam data mining.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Data Warehouse".
 d:P57       d:namaMatkul    "Proyek Perangkat Lunak II" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Tidak Ada Info";
+            d:syaratAmbil   "-".
 d:P58       d:namaMatkul    "Manajemen Project" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Konsep Manajemen Proyek (MP), MP secara umum, model manajemen klasik,  Peran-peran dalam MP, struktur manajemen organisasional / enterprise, kerangka kerja MP, alat bantu MP, Perencanaan proyek, perencanaan dan evaluasi, work breakdown structure (WBS), penjadwalan task, estimasi usaha (effort estimation), estimasi biaya, teknik estimasi biaya (cocomo, activity base costing, dll), alokasi sumber daya, manajemen risiko, pembuatan proposal proyek, tender dan aspek legal proyek, mempersiapkan aspek legal dalam tender, dokumen kontrak, organisasi dan personel proyek, struktur organisasi, posisi, tanggung jawab dan wewenang, komunikasi formal dan informal, project staffing, pelatihan personil, pengembangan karir, dan evaluasi, manajemen rapat (meeting  management), membangun dan memotivasi tim, conflict resolution, pengendalian proyek, pengendalian perubahan, pelaporan dan monitoring, analisis dan pengukuran hasil, recovery dan koreksi, penghargaan dan disiplin, standar performansi";
+            d:syaratAmbil   "-".
 d:P59       d:namaMatkul    "KKN - Magang" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Tidak Ada Info";
+            d:syaratAmbil   "-".
 d:P60       d:namaMatkul    "Kapita Selekta IKMN" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahas tentang studi kasus dan membahas tentang perkembangan mutakhir dari computational science dan numerical method yang diterapkan dalam berbagai bidang disiplin ilmu, beserta perangkat keras, perangkat lunak dan pengenalan alat bantu (tools) yang mempergunakan berbagai software simulasi dan aplikasi.";
+            d:syaratAmbil   "-".
 d:P61       d:namaMatkul    "High Performance Computing" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahas tentang teknik dan implementasi dari perangkat keras dan perangkat lunak yang dikembangkan untuk sistem komputer yang mampu dengan cepat melakukan sejumlah besar komputasi. Pendekat-an teknik yang dipergunakan secara umum tergantung pada pemanfaatan dan kemampuan komputasi dari sejumlah prosesor yang bekerja dalam system parallel, sharing memory yang menggabungkan multiprocessors atau klaster serta penggabungan personal computer. Lebih lanjut kuliah ini juga membahas tentang karakteristik aplikasi bioinformatics, menguji teknik perangkat lunak yang digunakan dalam komputasi berkinerja tinggi serta bagaimana menerapkan kom-putasi berkinerja tinggi tersebut pada aplikasi bioinformatik.";
+            d:syaratAmbil   "-".
 d:P62       d:namaMatkul    "Kapita Selekta SISM" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Mata kuliah ini membahas tentang implementasi dan studi kasus serta penerapannya tentang teori-teori system informasi dan rekayasa perangkat lunak dalam dunia bisnis, pemerintahan dan riset serta membahas tentang implementasi dari berbagai software alat bantu (tools) untuk membangun system informasi dari pengembangan system yang simple sampai yang complex.";
+            d:syaratAmbil   "-".
 d:P63       d:namaMatkul    "Sistem Informasi Geografi" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Map Projection and Coordinate System, Map digitizing, GPS, Remote Sensing, Thematic Map, Spatial Analysis, 3-D Analysis, Community-based mapping, location-based services.";
+            d:syaratAmbil   "Telah menyelesaikan matkul Sistem Informasi".
 d:P64       d:namaMatkul    "Kapita Selekta SCSG" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Kuliah ini membahas tentang implementasi, studi kasus serta membahas tentang perkembangan mutakhir dari berbagai model system cerdas dan system grafika yang saat ini banyak dipergunakan dalam dunia industri, hiburan, komunikasi dan pemerintahan. Kuliah ini juga membahas tentang perkembangan dari perangkat keras maupun perangkat lunak yang menerapkan system cerdas dan system grafika dalam operasionalisasinya";
+            d:syaratAmbil   "-".
 d:P65       d:namaMatkul    "Machine Learning" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Konsep dasar machine learning, Supervised learning, Supervised learning setup. LMS, Logistic regression. Perceptron. Exponential family, Generative learning algorithms. Gaussian discriminant analysis. Naive Bayes, Support vector machines, Model selection and feature selection, Ensemble methods: Bagging, boosting, Evaluating and debugging learning algorithms. Learning theory : bias/ variance tradeoff, union and Chernoff/ Hoeffding bounds, VC dimension, Worst case learning, practical advice on how to use learning algorithms. Unsupervised learning : Clustering K-means, EM, mixture of gaussians, factor analysis, PCA (principal components analysis), ICA (independent components analysis), Reinforcement learning and control : MDPs. Bellman equations, Value iteration and policy iteration, Linear quadratic regulation (LQR), LQG, Q-learning, Value function approximation, Policy search,  Reinforce, POMDPs.";
+            d:syaratAmbil   "-".
 d:P66       d:namaMatkul    "Kapita Selekta JKKD" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Mata kuliah ini bertujuan untuk memberikan pemahaman implemen-tasi tentang perkembangan sistem jaringan computer yang dipergunakan dalam berbagai bidang teknologi informasi dan komunikasi. Mata kuliah ini juga membahas tentang trend perkembangan system jaringan saat ini (bluetooth technologies, wire-less tecnologies, dll)";
+            d:syaratAmbil   "-".
 d:P67       d:namaMatkul    "Jaringan Komputer Lanjut" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Topik yang akan dibahas tentang manajemen jaringan (MIB, SNMP, RMON), VPN (Virtual Private Net-work), Mobile IP, IP next generation dan Security jaringan";
+            d:syaratAmbil   "Telah menyelesaikan matkul Manajemen Jaringan".
 d:P68       d:namaMatkul    "Seminar" ;
-            d:deskripsi     "";
-            d:syaratAmbil   "".
+            d:deskripsi     "Tidak Ada Info";
+            d:syaratAmbil   "-".
 d:P69       d:namaMatkul    "Tugas Akhir" ;
-            d:deskrips      "";
-            d:syaratAmbil   "".
+            d:deskrips      "Tidak Ada Info";
+            d:syaratAmbil   "-".

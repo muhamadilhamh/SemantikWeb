@@ -198,7 +198,7 @@ p:detail49   d:deskripsi        "Pendahuluan: sejarah perkembangan, rekayasa apl
              d:keterangan       "Tidak Ada";
              d:syaratAmbil      "-".
 
-p:detail50   d:deskripsi        "opik-topik yang dibahas meliputi: Sound and audio, image and graph-ics, animation and video. Multimedia standards (audio, music, graphics, image, telephony, video, TV); Capac-ity planning and performance issues; Input and output devices (scanners, digital camera, touch-screens, voice-ac-tivated); MIDI keyboards, synthesizers; Storage standards (Magneto Optical disk, CD-ROM, DVD); Multimedia serv-ers and file systems; Tools to support multimedia development. ";
+p:detail50   d:deskripsi        "Topik-topik yang dibahas meliputi: Sound and audio, image and graph-ics, animation and video. Multimedia standards (audio, music, graphics, image, telephony, video, TV); Capac-ity planning and performance issues; Input and output devices (scanners, digital camera, touch-screens, voice-ac-tivated); MIDI keyboards, synthesizers; Storage standards (Magneto Optical disk, CD-ROM, DVD); Multimedia serv-ers and file systems; Tools to support multimedia development. ";
              d:keterangan       "Memiliki Praktikum";
              d:syaratAmbil      "Telah menyelesaikan matkul Sistem Informasi".
 
